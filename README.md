@@ -43,9 +43,3 @@ For a VS Code-like editor, change `github.com` to `github.dev` in the URL.
 Browsers and Cloudflare cache assets by filename. When you change a file's contents
 without renaming it, bump the version marker so visitors get the new one:
 in `src/generate.py` and `src/locale_pl.py`, replace `?v=5` with `?v=6` (etc.).
-
-## Rules baked into the content
-
-- Never publish client names (OEMs, tier-1 suppliers), supplier brands, or the source of the aerospace chemistry.
-- The GIG result is a **test report**, not an ATEX certificate — wording is "GIG-tested".
-- Product name is **ATEX ZeroSpray**, always spelled that way.
