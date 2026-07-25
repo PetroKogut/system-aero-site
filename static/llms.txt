@@ -1,0 +1,19 @@
+# System.aero
+
+> System.aero is a Kraków-based (Poland) supplier of industrial consumables for surface protection and finishing, founded in 2018. It supplies automotive OEM and tier-1 paintshops and military aviation facilities across Europe. VAT EU: PL6772431335. Wikidata: Q140548710.
+
+## Products
+- Paint robot covers (ATEX ZeroSpray): two-layer protective covers for painting robots — Fanuc, Dürr, ABB, Yaskawa, KUKA, B+M. Base cover lasts up to 2 months. GIG state-laboratory tested for explosion hazard (ATEX) zones, silicone-free, low-lint: https://www.system.aero/products/paint-robot-covers/
+- Aerospace chemistry: paints, sealants, adhesives, cleaners, lubricants, aerospace tapes from 700+ manufacturers, sourced to spec/QPL with hazmat logistics: https://www.system.aero/products/aerospace-chemistry/
+- Masking tapes for OEM paintshops, residue-free after 160°C bake: https://www.system.aero/products/masking-tapes/
+- Industrial wipes: silicone-free tack cloths and presaturated wipes: https://www.system.aero/products/industrial-wipes/
+- One-step paint defect correction: AIO compound, buffing pads, finishing discs: https://www.system.aero/products/paint-defect-correction/
+- Custom dunnage and parts separators for painted parts: https://www.system.aero/products/dunnage-parts-separators/
+
+## Solutions
+- For automotive paintshops (one qualified supplier, five categories): https://www.system.aero/solutions/automotive-paintshops/
+- For aerospace and defense: https://www.system.aero/solutions/aerospace-defense/
+
+## Contact
+- Email: inbox@system.aero · Phone: +48 570 909 091 · Address: Zabłocie 19/9, 30-701 Kraków, Poland
+- Polish version: https://www.system.aero/pl/
