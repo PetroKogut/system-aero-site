@@ -38,6 +38,6 @@ Audience: automotive OEM/tier-1 procurement and military aviation. Owner: Petro 
 ## Current state / open items
 
 - Live on Cloudflare Worker (workers.dev); custom domain www.system.aero attached only when polish pass is done. Then: Google Search Console, Bing (manual BingSiteAuth.xml), LinkedIn backlink, DirectIndustry, Google Business Profile.
-- `static/docs/`: needs `gig-test-report-br-1-33-2026.pdf` (owner has file), delete empty `static.pdf`, rename `spr129_5 tkanina.pdf` → `gig-test-report-br-1-129-2025.pdf` (no spaces in filenames).
-- MSWiA trade concession (koncesja.pdf) to be featured on the aerospace-defense page after owner confirms scan has no sensitive personal data and provides exact number/date. GIG publication consent status — confirm with owner before treating reports as public.
+- MSWiA trade concession (koncesja.pdf): owner confirmed scan is clean (26.07.2026); No. B-074/2025, granted 12.06.2025, 50 years, trade in WT V military/police-designated products, no storage rights. To be featured on the aerospace-defense page — exact copy pending owner approval.
+- GIG test reports published on the site 26.07.2026 by owner decision.
 - Hero photo for covers page: current vertical shot is interim; a horizontal wide shot of a covered robot is wanted when photo access at a plant is possible.

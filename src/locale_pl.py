@@ -311,7 +311,7 @@ AERODEF_BODY = prose_page("Dla lotnictwa i obronno\u015bci", "Klasa aerospace \u
 <li><strong>Materia\u0142y techniczne</strong> \u2014 niskopyl\u0105ce czy\u015bciwa i \u015bciereczki py\u0142och\u0142onne do przygotowania kompozyt\u00f3w i lakierowania, lotnicze ta\u015bmy maskuj\u0105ce i ochronne, plastikowe \u015bcierniwa do usuwania pow\u0142ok, pokrowce ochronne na sprz\u0119t.</li>
 </ul>
 <p><strong>Obs\u0142ugiwane rynki:</strong> lotnictwo wojskowe i obronno\u015b\u0107 · MRO lotnicze · produkcja lotnicza · materia\u0142y dla sektora kosmicznego w mapie drogowej (chemia o niskim odgazowaniu wed\u0142ug wymaga\u0144 ECSS i NASA).</p>
-<p>Do\u015bwiadczenie w zam\u00f3wieniach publicznych: uczestniczymy w przetargach sektora obronnego w Polsce i rozumiemy dyscyplin\u0119 dokumentacyjn\u0105, jakiej wymagaj\u0105.</p>
+<p><strong>Koncesja MSWiA:</strong> System.aero posiada koncesj\u0119 MSWiA nr B-074/2025 (wydan\u0105 12.06.2025, wa\u017cn\u0105 50 lat) na obr\u00f3t wyrobami o przeznaczeniu wojskowym lub policyjnym (WT V). Uczestniczymy w przetargach sektora obronnego w Polsce i rozumiemy dyscyplin\u0119 dokumentacyjn\u0105, jakiej wymagaj\u0105. <a href="/docs/koncesja.pdf">Koncesja (PDF)</a></p>
 ''')
 
 PRIVACY_BODY = prose_page("Polityka prywatno\u015bci", "Polityka prywatno\u015bci.",

@@ -340,7 +340,7 @@ AERODEF_BODY = prose_page("For aerospace &amp; defense", "Aerospace-grade, from 
 <li><strong>Technical consumables</strong> \u2014 low-lint wipes and tack cloths for composite and paint prep, aerospace masking and surface-protection tapes, plastic blasting media for paint stripping, protective covers for equipment.</li>
 </ul>
 <p><strong>Markets we serve:</strong> military aviation and defense · aviation MRO · aerospace manufacturing · space-sector materials on our roadmap (low-outgassing chemistry per ECSS and NASA requirements).</p>
-<p>Public procurement experience: we participate in Polish defense-sector tenders and understand the documentation discipline they require.</p>
+<p><strong>Licensed for defense trade:</strong> System.aero holds MSWiA concession No. B-074/2025 (granted 12 June 2025, valid 50 years) for trade in military and police-designated products (WT V). We participate in Polish defense-sector tenders and understand the documentation discipline they require. <a href="/docs/koncesja.pdf">Concession (PDF)</a></p>
 ''')
 
 
