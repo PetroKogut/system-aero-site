@@ -22,11 +22,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--red);outline-offset
 
 /* header */
 .site-header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.96);z-index:10}
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.site-header .wrap{max-width:none;display:flex;align-items:center;gap:16px;height:50px}
 .logo{font-size:19px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
 .logo b{color:var(--red);font-weight:600}
 .logo:hover{text-decoration:none}
-nav.main{display:flex;gap:26px;align-items:center;font-size:14.5px}
+nav.main{flex:1;display:flex;justify-content:space-evenly;align-items:center;font-size:14px}
 nav.main a{color:var(--muted)}
 nav.main a:hover{color:var(--ink);text-decoration:none}
 nav.main a.cta-link{color:var(--red);font-weight:500}
@@ -183,3 +183,17 @@ details.specs .inner ul{margin:0 0 12px 20px}
 .centered-sec{max-width:820px;margin:0 auto}
 @media (max-width:700px){.tiles{grid-template-columns:1fr}.robocards{grid-template-columns:1fr 1fr}}
 .card img.thumb{height:150px;width:100%;object-fit:cover;border-radius:8px;margin-bottom:16px;display:block}
+
+/* homepage product stack */
+.pstack{padding:72px 0;text-align:center}
+.pstack--strip{background:var(--strip)}
+.pstack--dark{background:var(--ink)}
+.pstack--dark h2{color:#fff}
+.pstack--dark .eyebrow{color:#F09595}
+.pstack--dark a{color:#F09595}
+.pstack h2{font-size:clamp(28px,4vw,44px);font-weight:600;letter-spacing:-.02em;line-height:1.12;margin-bottom:10px}
+.pstack .eyebrow{margin-bottom:12px}
+.pstack .plink{font-size:15px;font-weight:500}
+.pstack img{border-radius:14px;margin:36px auto 0;width:100%;height:auto}
+.pstack .pimg--wide{max-width:680px}
+.pstack .pimg--portrait{max-width:300px}

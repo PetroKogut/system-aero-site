@@ -65,8 +65,8 @@ def render(p):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/fonts.css?v=5">
-<link rel="stylesheet" href="/css/style.css?v=5">
+<link rel="stylesheet" href="/css/fonts.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=6">
 {ld_tags}
 </head>
 <body>
@@ -77,8 +77,8 @@ def render(p):
 <a href="/#solutions" class="hide-m">Solutions</a>
 <a href="/#about" class="hide-m">About</a>
 <a href="/#contact" class="cta-link">Contact</a>
-<a class="lang" href="{pl_slug}">PL · <b>EN</b></a>
 </nav>
+<a class="lang" href="{pl_slug}">PL · <b>EN</b></a>
 </div></header>
 <main>
 {p["body"]}
@@ -148,43 +148,48 @@ HOME_BODY = f'''
 <div class="wrap"><div class="hero">
 <h1>Industrial consumables for surface protection and finishing.</h1>
 <p class="lead">System.aero supplies paint robot covers, paintshop consumables and aerospace chemistry to automotive OEM plants and military aviation facilities across Europe. Based in Krak\u00f3w, Poland.</p>
-<div class="btns">
-<a class="btn btn-red" href="mailto:{MAIL}?subject=Sample%20request%20%E2%80%94%20system.aero">Request samples</a>
-<a class="btn btn-ghost" href="mailto:{MAIL}?subject=Project%20inquiry%20%E2%80%94%20system.aero">Discuss a project</a>
-</div>
 </div></div>
 
-<div class="numstrip"><div class="wrap">
-<div class="num"><b>2 mo</b><span>base cover service life</span></div>
-<div class="num"><b>700+</b><span>aerospace manufacturers in our network</span></div>
-<div class="num"><b>GIG</b><span>state-lab tested for ATEX zones</span></div>
-<div class="num"><b>10\u201315</b><span>business days typical lead time</span></div>
-</div></div>
+<section class="pstack pstack--dark" id="products"><div class="wrap">
+<p class="eyebrow">ATEX ZeroSpray \u2014 paint robot covers</p>
+<h2>One base cover. Two months.</h2>
+<a class="plink" href="/products/paint-robot-covers/">Explore \u2192</a>
+<img class="pimg--portrait" src="/img/covers-booth.webp?v=6" alt="ATEX ZeroSpray protective cover installed on a painting robot inside a paint booth" width="1124" height="2000">
+</div></section>
 
-<section id="products"><div class="wrap">
-<p class="eyebrow">Products</p>
-<h2 class="sec">Six product lines. One qualified supplier.</h2>
-<p class="sub">Registered supplier to major automotive players. Laboratory-confirmed silicone-free. Supplier to military aviation facilities in Poland. EU-based production and stock.</p>
-<div class="cards">
-<div class="card"><a class="stretch" href="/products/aerospace-chemistry/">
-<img class="thumb" src="/img/aerospace-chemistry-cans.webp?v=5" alt="Aerospace chemicals in tins packed in boxes" loading="lazy">
-<h3>Aerospace chemistry</h3><p>Flight-approved chemistry, delivered on spec.</p><p class="more">Explore \u2192</p></a></div>
-<div class="card"><a class="stretch" href="/products/paint-robot-covers/">
-<img class="thumb" src="/img/covers-atomizer.webp?v=5" alt="Covered painting robot arm with atomizer" loading="lazy">
-<h3>Paint robot covers</h3><p>One base cover. Two months.</p><p class="more">Explore \u2192</p></a></div>
-<div class="card"><a class="stretch" href="/products/masking-tapes/">
-<img class="thumb" src="/img/masking-pillar.webp?v=5" alt="Masked A-pillar on a car body" loading="lazy">
-<h3>Masking tapes</h3><p>Clean lines. Clean removal. Oven-proof.</p><p class="more">Explore \u2192</p></a></div>
-<div class="card"><a class="stretch" href="/products/industrial-wipes/">
-<img class="thumb" src="/img/tack-cloth.webp?v=5" alt="Tack cloth wiping before paint" loading="lazy">
-<h3>Industrial wipes</h3><p>No lint. No silicone. No craters.</p><p class="more">Explore \u2192</p></a></div>
-<div class="card"><a class="stretch" href="/products/paint-defect-correction/">
-<img class="thumb" src="/img/defect-correction.webp?v=5" alt="Spot repair on painted panel" loading="lazy">
-<h3>One-step paint defect correction</h3><p>One pass from defect to gloss.</p><p class="more">Explore \u2192</p></a></div>
-<div class="card"><a class="stretch" href="/products/dunnage-parts-separators/">
-<img class="thumb" src="/img/dunnage-conveyor.webp?v=5" alt="Protective separators on painted parts" loading="lazy">
-<h3>Dunnage &amp; parts separators</h3><p>Painted parts arrive as painted.</p><p class="more">Explore \u2192</p></a></div>
-</div>
+<section class="pstack"><div class="wrap">
+<p class="eyebrow">Industrial wipes</p>
+<h2>No lint. No silicone. No craters.</h2>
+<a class="plink" href="/products/industrial-wipes/">Explore \u2192</a>
+<img class="pimg--wide" src="/img/tack-cloth.webp?v=6" alt="Tack cloth wiping before paint" width="1600" height="900" loading="lazy">
+</div></section>
+
+<section class="pstack pstack--strip"><div class="wrap">
+<p class="eyebrow">One-step paint defect correction</p>
+<h2>One pass from defect to gloss.</h2>
+<a class="plink" href="/products/paint-defect-correction/">Explore \u2192</a>
+<img class="pimg--wide" src="/img/defect-correction.webp?v=6" alt="Spot repair on painted panel" width="1600" height="900" loading="lazy">
+</div></section>
+
+<section class="pstack"><div class="wrap">
+<p class="eyebrow">Masking tapes</p>
+<h2>Clean lines. Clean removal. Oven-proof.</h2>
+<a class="plink" href="/products/masking-tapes/">Explore \u2192</a>
+<img class="pimg--portrait" src="/img/masking-tape.webp?v=6" alt="Masking tape applied along a freshly painted black car body on the line" width="1500" height="2000" loading="lazy">
+</div></section>
+
+<section class="pstack pstack--strip"><div class="wrap">
+<p class="eyebrow">Dunnage &amp; parts separators</p>
+<h2>Painted parts arrive as painted.</h2>
+<a class="plink" href="/products/dunnage-parts-separators/">Explore \u2192</a>
+<img class="pimg--wide" src="/img/dunnage-conveyor.webp?v=6" alt="Protective separators on painted parts" width="1600" height="900" loading="lazy">
+</div></section>
+
+<section class="pstack"><div class="wrap">
+<p class="eyebrow">Aerospace chemistry</p>
+<h2>Flight-approved chemistry, delivered on spec.</h2>
+<a class="plink" href="/products/aerospace-chemistry/">Explore \u2192</a>
+<img class="pimg--wide" src="/img/aerospace-chemistry.webp?v=6" alt="Worker in full PPE applying coating with a spray gun" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="solutions" id="solutions"><div class="wrap">
@@ -200,15 +205,6 @@ HOME_BODY = f'''
 </div>
 </div></section>
 
-<section><div class="wrap">
-<div class="innov">
-<div style="flex:1;min-width:260px"><p class="eyebrow" style="margin-bottom:6px">Innovation</p>
-<h3>ATEX ZeroSpray</h3>
-<p>A two-layer robot protection system, tested by the GIG state laboratory for safe use in explosion hazard zones, that multiplies the time between cover changes.</p></div>
-<a class="btn btn-ghost" href="/products/paint-robot-covers/">Paint robot covers \u2192</a>
-</div>
-</div></section>
-
 <section id="about" class="about" style="padding-top:0"><div class="wrap">
 <p class="eyebrow">About</p>
 <h2 class="sec">A specialist, not a marketplace.</h2>
@@ -220,6 +216,13 @@ HOME_BODY = f'''
 <h2 class="sec">Frequently asked</h2>
 {faq_html(HOME_FAQ)}
 </div></section>
+
+<div class="numstrip"><div class="wrap">
+<div class="num"><b>2 mo</b><span>base cover service life</span></div>
+<div class="num"><b>700+</b><span>aerospace manufacturers in our network</span></div>
+<div class="num"><b>GIG</b><span>state-lab tested for ATEX zones</span></div>
+<div class="num"><b>10–15</b><span>business days typical lead time</span></div>
+</div></div>
 '''
 
 AERO_FAQ = [
@@ -233,7 +236,7 @@ AERO_BODY = product_page(
  'Complete chemical supply for aviation manufacturing, MRO and defense — sourced against your specification or QPL, delivered with compliant logistics.',
  'Send us your specification',
  'mailto:inbox@system.aero?subject=Specification%20inquiry%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=5" alt="Worker in full PPE applying coating with a spray gun" width="1600" height="900"><figcaption>Coating application in full PPE — chemistry handled with discipline.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=6" alt="Worker in full PPE applying coating with a spray gun" width="1600" height="900"><figcaption>Coating application in full PPE — chemistry handled with discipline.</figcaption></figure>',
  [('To spec, or qualified equivalent', 'Sourced by specification, P/N or QPL from 700+ manufacturers; spec-compliant equivalents clearly marked when you want options.'),('Chemical management', 'Batch traceability, certificates of conformity, REACH SDS, shelf-life management.'),('Compliant logistics', 'Temperature-controlled storage and transport, hazmat packaging and documentation, end to end.'),('Space on the roadmap', 'Low-outgassing chemistry per ECSS and NASA requirements is coming.')],
  AERO_FAQ,
  'Questions? Answers.',
@@ -250,7 +253,7 @@ COVERS_BODY = product_page(
  'A two-layer protection system for painting robots: a base cover that stays on for up to two months, plus a quick-change top layer.',
  'Request a quote',
  'mailto:inbox@system.aero?subject=Quote%20request%20%E2%80%94%20system.aero',
- '<figure class="solo"><img src="/img/covers-booth.webp?v=5" alt="ATEX ZeroSpray protective cover installed on a painting robot inside a paint booth" width="1124" height="2000"><figcaption>ATEX ZeroSpray on a painting robot — base cover in service.</figcaption></figure>',
+ '<figure class="solo"><img src="/img/covers-booth.webp?v=6" alt="ATEX ZeroSpray protective cover installed on a painting robot inside a paint booth" width="1124" height="2000"><figcaption>ATEX ZeroSpray on a painting robot — base cover in service.</figcaption></figure>',
  [('Low-lint construction', 'Fiber shedding from covers causes paint defects; our material and finishing are built around lint control.'),('GIG-tested for ATEX zones', 'State-laboratory test report BR-1/33/2026 — not a self-issued declaration. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Full report (PDF)</a>'),('Silicone-free', 'No PDMS contamination risk to your paint process.'),('Two-layer economics', 'Change the cheap top layer often, the engineered base layer rarely.')],
  COVERS_FAQ,
  'Questions? Answers.',
@@ -268,7 +271,7 @@ TAPES_BODY = product_page(
  'Masking tapes for OEM paintshops — validated in production trials for residue-free removal after bake cycles.',
  'Request sample rolls',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
- '<figure class="solo"><img src="/img/masking-tape.webp?v=5" alt="Masking tape applied along a freshly painted black car body on the line" width="1500" height="2000"><figcaption>Edge masking on a bi-color job — clean line, clean removal.</figcaption></figure>',
+ '<figure class="solo"><img src="/img/masking-tape.webp?v=6" alt="Masking tape applied along a freshly painted black car body on the line" width="1500" height="2000"><figcaption>Edge masking on a bi-color job — clean line, clean removal.</figcaption></figure>',
  [('OEM-validated', 'Full validation sequence: silicone-trace lab tests, line application trials, oven residue tests, post-bake removal.'),('160 °C / 30 min', 'Survives a full automotive bake cycle without adhesive transfer.'),('Bi-color ready', 'Edge masking, sealing lines and two-tone paint jobs.'),('Free EU samples', 'Rolls for line trials shipped free within the EU.')],
  TAPES_FAQ,
  'Questions? Answers.')
@@ -282,7 +285,7 @@ WIPES_BODY = product_page(
  'Tack cloths and presaturated wipes for surface prep before paint — the cheapest insurance against a rework.',
  'Request a sample pack',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=5" alt="Gloved hand wiping an unpainted bumper with a tack cloth in a paintshop" width="1600" height="900"><figcaption>Tack-off before paint — the last line of defense against inclusions.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=6" alt="Gloved hand wiping an unpainted bumper with a tack cloth in a paintshop" width="1600" height="900"><figcaption>Tack-off before paint — the last line of defense against inclusions.</figcaption></figure>',
  [('Tack cloths (tack rags)', 'Capture and hold dust, lint and sanding residue before basecoat and clearcoat; silicone-free, safe for waterborne and solvent systems.'),('Presaturated wipes', 'Consistent solvent load every wipe, lower VOC exposure than open-bucket wetting, no over-saturation.')],
  WIPES_FAQ,
  'Questions? Answers.')
@@ -296,7 +299,7 @@ POLISH_BODY = product_page(
  'A complete spot-repair system for OEM finish lines: one-step polishing compound, buffing pads and sanding discs.',
  'Book a line trial',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/defect-correction.webp?v=5" alt="Spot repair sander on a glossy black painted panel at a finish deck" width="1600" height="900"><figcaption>Spot repair on the finish deck — one pass from defect to gloss.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/defect-correction.webp?v=6" alt="Spot repair sander on a glossy black painted panel at a finish deck" width="1600" height="900"><figcaption>Spot repair on the finish deck — one pass from defect to gloss.</figcaption></figure>',
  [('One-step compound', 'Cut and finish in a single product; silicone-free, filler-free.'),('Matched buffing pads', "Tuned to the compound's breakdown curve."),('Finishing discs', 'Pyramid-structured abrasive for the sanding step.'),('Engineered for OEM', 'VOC-compliant, genuine defect removal — not glaze that washes out.')],
  POLISH_FAQ,
  'Questions? Answers.')
@@ -310,7 +313,7 @@ DUNNAGE_BODY = product_page(
  'Custom protective separators for transporting painted and finished parts — engineered to your part, your rack, your line.',
  'Send part photos for a concept',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=5" alt="Padded protective separators on painted parts hanging on a conveyor" width="1600" height="900"><figcaption>Separators in service — painted parts protected on the line.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=6" alt="Padded protective separators on painted parts hanging on a conveyor" width="1600" height="900"><figcaption>Separators in service — painted parts protected on the line.</figcaption></figure>',
  [('Engineered to the part', 'Corrugated PP cores with non-scratch padding, straps and hooks — shaped to geometry, rack and conveyor.'),('14 days to serial', 'From drawing — or just photos and measurements — to serial delivery.'),('96.9% sheet utilization', "ILP-optimized cutting layouts: material you don't pay for twice."),('Class-A safe', 'Bumpers, spoilers, trims — any painted or delicate surface part.')],
  DUNNAGE_FAQ,
  'Questions? Answers.')
