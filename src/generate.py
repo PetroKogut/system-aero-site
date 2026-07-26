@@ -368,7 +368,7 @@ PRIVACY_BODY = prose_page("Privacy notice", "Privacy notice.",
 
 PAGES = [
  dict(slug="/", pl_slug="/pl/", title="System.aero \u2014 Industrial consumables for surface protection and finishing",
-      desc="System.aero supplies paintshops in automotive, aerospace and manufacturing: robot covers, tapes, wipes, paint defect correction, dunnage and aerospace chemistry. Krak\u00f3w, Poland.",
+      desc="Paintshop supplies for automotive, aerospace and manufacturing: robot covers, tapes, wipes, defect correction, dunnage and aerospace chemistry. Krak\u00f3w, Poland.",
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ)]),
  dict(slug="/products/aerospace-chemistry/", pl_slug="/pl/produkty/chemia-lotnicza/",
       title="Aerospace chemistry \u2014 sourced to spec, QPL and part number | System.aero",
