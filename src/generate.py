@@ -146,8 +146,8 @@ HOME_FAQ = [
 
 HOME_BODY = f'''
 <div class="wrap"><div class="hero">
-<h1>Industrial consumables for surface protection and finishing.</h1>
-<p class="lead">System.aero supplies paint robot covers, paintshop consumables and aerospace chemistry to automotive OEM plants and military aviation facilities across Europe. Based in Krak\u00f3w, Poland.</p>
+<h1>We supply paintshops in automotive, aerospace and manufacturing.</h1>
+<p class="lead">Robot covers, masking tapes, wipes, paint defect correction, dunnage and aerospace chemistry \u2014 delivered across Europe from Krak\u00f3w, Poland.</p>
 </div></div>
 
 <section class="pstack pstack--dark" id="products"><div class="wrap">
@@ -368,7 +368,7 @@ PRIVACY_BODY = prose_page("Privacy notice", "Privacy notice.",
 
 PAGES = [
  dict(slug="/", pl_slug="/pl/", title="System.aero \u2014 Industrial consumables for surface protection and finishing",
-      desc="Paint robot covers, masking tapes, technical wipes, polishing systems, dunnage and aerospace chemistry for automotive OEM plants and military aviation facilities. Krak\u00f3w, Poland.",
+      desc="System.aero supplies paintshops in automotive, aerospace and manufacturing: robot covers, tapes, wipes, paint defect correction, dunnage and aerospace chemistry. Krak\u00f3w, Poland.",
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ)]),
  dict(slug="/products/aerospace-chemistry/", pl_slug="/pl/produkty/chemia-lotnicza/",
       title="Aerospace chemistry \u2014 sourced to spec, QPL and part number | System.aero",

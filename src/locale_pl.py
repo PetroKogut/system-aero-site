@@ -117,8 +117,8 @@ HOME_FAQ = [
 
 HOME_BODY = f'''
 <div class="wrap"><div class="hero">
-<h1>Przemys\u0142owe materia\u0142y eksploatacyjne do ochrony i wyko\u0144czenia powierzchni.</h1>
-<p class="lead">System.aero dostarcza pokrowce na roboty lakiernicze, materia\u0142y eksploatacyjne dla lakierni oraz chemi\u0119 lotnicz\u0105 do fabryk motoryzacyjnych OEM i wojskowych zak\u0142ad\u00f3w lotniczych w ca\u0142ej Europie. Firma z Krakowa.</p>
+<h1>Zaopatrujemy lakiernie w motoryzacji, lotnictwie i przemy\u015ble.</h1>
+<p class="lead">Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki i chemia lotnicza \u2014 dostawy w ca\u0142ej Europie z Krakowa.</p>
 </div></div>
 
 <section class="pstack pstack--dark" id="products"><div class="wrap">
@@ -338,7 +338,7 @@ PRIVACY_BODY = prose_page("Polityka prywatno\u015bci", "Polityka prywatno\u015bc
 
 PAGES_PL = [
  dict(slug="/pl/", en_slug="/", title="System.aero \u2014 przemys\u0142owe materia\u0142y do ochrony i wyko\u0144czenia powierzchni",
-      desc="Pokrowce na roboty lakiernicze, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, systemy polerskie, przek\u0142adki transportowe i chemia lotnicza dla fabryk OEM i wojskowych zak\u0142ad\u00f3w lotniczych. Krak\u00f3w.",
+      desc="System.aero zaopatruje lakiernie w motoryzacji, lotnictwie i przemy\u015ble: pokrowce na roboty, ta\u015bmy, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki, chemia lotnicza. Krak\u00f3w.",
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ)]),
  dict(slug="/pl/produkty/chemia-lotnicza/", en_slug="/products/aerospace-chemistry/",
       title="Chemia lotnicza \u2014 wed\u0142ug specyfikacji, QPL i numeru katalogowego | System.aero",
