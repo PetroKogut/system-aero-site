@@ -43,3 +43,5 @@ For a VS Code-like editor, change `github.com` to `github.dev` in the URL.
 Browsers and Cloudflare cache assets by filename. When you change a file's contents
 without renaming it, bump the version marker so visitors get the new one:
 in `src/generate.py` and `src/locale_pl.py`, replace `?v=5` with `?v=6` (etc.).
+
+TEMPORARY: remove the #expo section, its CSS and the Event JSON-LD after 03.09.2026.

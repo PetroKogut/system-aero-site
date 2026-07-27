@@ -197,3 +197,7 @@ details.specs .inner ul{margin:0 0 12px 20px}
 .pstack img{border-radius:14px;margin:36px auto 0;width:100%;height:auto}
 .pstack .pimg--wide{max-width:680px}
 .pstack .pimg--portrait{max-width:300px}
+
+/* TEMPORARY trade-fair section — remove after 03.09.2026 */
+.expo-sub{font-size:16px;color:var(--muted);margin:0 0 18px}
+#expo{padding:56px 0}
