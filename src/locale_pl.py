@@ -344,8 +344,8 @@ PRIVACY_BODY = prose_page("Polityka prywatno\u015bci", "Polityka prywatno\u015bc
 
 
 PAGES_PL = [
- dict(slug="/pl/", en_slug="/", title="System.aero \u2014 przemys\u0142owe materia\u0142y do ochrony i wyko\u0144czenia powierzchni",
-      desc="Zaopatrzenie lakierni w motoryzacji, lotnictwie i przemy\u015ble: pokrowce na roboty, ta\u015bmy, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki, chemia lotnicza.",
+ dict(slug="/pl/", en_slug="/", title="Zaopatrzenie lakierni \u2014 motoryzacja, lotnictwo, przemys\u0142 | System.aero",
+      desc="Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki i chemia lotnicza. Dostawy w ca\u0142ej Europie z Krakowa.",
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ), EXPO_LD]),
  dict(slug="/pl/produkty/chemia-lotnicza/", en_slug="/products/aerospace-chemistry/",
       title="Chemia lotnicza \u2014 wed\u0142ug specyfikacji, QPL i numeru katalogowego | System.aero",
