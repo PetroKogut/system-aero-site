@@ -118,7 +118,7 @@ HOME_FAQ = [
 HOME_BODY = f'''
 <div class="wrap"><div class="hero">
 <h1>Zaopatrujemy lakiernie w motoryzacji, lotnictwie i przemy\u015ble.</h1>
-<p class="lead">Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki i chemia lotnicza \u2014 dostawy w ca\u0142ej Europie z Krakowa.</p>
+<p class="lead">Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki i chemia lotnicza.</p>
 </div></div>
 
 <section class="pstack pstack--strip" id="expo"><div class="wrap">

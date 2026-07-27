@@ -156,7 +156,7 @@ HOME_FAQ = [
 HOME_BODY = f'''
 <div class="wrap"><div class="hero">
 <h1>We supply paintshops in automotive, aerospace and manufacturing.</h1>
-<p class="lead">Robot covers, masking tapes, wipes, paint defect correction, dunnage and aerospace chemistry \u2014 delivered across Europe from Krak\u00f3w, Poland.</p>
+<p class="lead">Robot covers, masking tapes, wipes, paint defect correction, dunnage and aerospace chemistry.</p>
 </div></div>
 
 <section class="pstack pstack--strip" id="expo"><div class="wrap">
