@@ -45,8 +45,8 @@ def render(p):
 <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/fonts.css?v=8">
-<link rel="stylesheet" href="/css/style.css?v=8">
+<link rel="stylesheet" href="/css/fonts.css?v=9">
+<link rel="stylesheet" href="/css/style.css?v=9">
 {ld_tags}
 </head>
 <body>
@@ -81,8 +81,11 @@ def render(p):
     path.write_text(html, encoding="utf-8")
     print("wrote", path)
 
-def product_page(eyebrow, h1, lead, cta, cta_url, fig, tiles, faq_items, faq_h, quote=None, robots=None, specs=None):
+def product_page(eyebrow, h1, lead, cta, cta_url, fig, tiles, faq_items, faq_h, quote=None, robots=None, specs=None, cta2=None, cta2_url=None):
     t_html = "".join(f'<div class="tile"><h3>{t}</h3><p>{d}</p></div>' for t, d in tiles)
+    btn_html = f'<a class="btn btn-red" href="{cta_url}">{cta}</a>'
+    if cta2:
+        btn_html += f'<a class="btn btn-ghost" href="{cta2_url}">{cta2}</a>'
     q_html = f'<div class="quote"><p>{quote[0]}</p><cite>{quote[1]}</cite></div>' if quote else ""
     r_html = ""
     if robots:
@@ -94,7 +97,7 @@ def product_page(eyebrow, h1, lead, cta, cta_url, fig, tiles, faq_items, faq_h, 
 <p class="eyebrow">{eyebrow}</p>
 <h1>{h1}</h1>
 <p class="lead">{lead}</p>
-<a class="btn btn-red" href="{cta_url}">{cta}</a>
+<div class="btns">{btn_html}</div>
 </div>
 {fig}
 </div>
@@ -132,42 +135,42 @@ HOME_BODY = f'''
 <p class="eyebrow">ATEX ZeroSpray \u2014 pokrowce na roboty lakiernicze</p>
 <h2>Jeden pokrowiec bazowy. Dwa miesi\u0105ce.</h2>
 <a class="plink" href="/pl/produkty/pokrowce-na-roboty-lakiernicze/">Zobacz \u2192</a>
-<img class="pimg--portrait" src="/img/covers-booth.webp?v=8" alt="Pokrowiec ochronny ATEX ZeroSpray za\u0142o\u017cony na robota lakierniczego w kabinie" width="1124" height="2000">
+<img class="pimg--portrait" src="/img/covers-booth.webp?v=9" alt="Pokrowiec ochronny ATEX ZeroSpray za\u0142o\u017cony na robota lakierniczego w kabinie" width="1124" height="2000">
 </div></section>
 
 <section class="pstack"><div class="wrap">
 <p class="eyebrow">Czy\u015bciwa</p>
-<h2>Zero py\u0142k\u00f3w. Zero silikonu. Zero krater\u00f3w.</h2>
+<h2>Zero py\u0142k\u00f3w. Zero silikonu. Czysty start ka\u017cdej warstwy.</h2>
 <a class="plink" href="/pl/produkty/czysciwa-przemyslowe/">Zobacz \u2192</a>
-<img class="pimg--wide" src="/img/tack-cloth.webp?v=8" alt="\u015aciereczka py\u0142och\u0142onna przed lakierowaniem" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/tack-cloth.webp?v=9" alt="\u015aciereczka py\u0142och\u0142onna przed lakierowaniem" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="pstack pstack--strip"><div class="wrap">
 <p class="eyebrow">Jednoetapowa korekta defekt\u00f3w lakieru</p>
-<h2>Od defektu do po\u0142ysku w jednym przej\u015bciu.</h2>
+<h2>Od defektu do po\u0142ysku w ~30 sekund.</h2>
 <a class="plink" href="/pl/produkty/korekta-defektow-lakieru/">Zobacz \u2192</a>
-<img class="pimg--wide" src="/img/defect-correction.webp?v=8" alt="Naprawa punktowa lakieru" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/defect-correction.webp?v=9" alt="Naprawa punktowa lakieru" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="pstack"><div class="wrap">
 <p class="eyebrow">Ta\u015bmy maskuj\u0105ce</p>
-<h2>Czysta linia. Czyste usuwanie. Odporno\u015b\u0107 na piec.</h2>
+<h2>\u0141atwa aplikacja. Czyste usuwanie. Wytrzymuje 160 \u00b0C.</h2>
 <a class="plink" href="/pl/produkty/tasmy-maskujace/">Zobacz \u2192</a>
-<img class="pimg--portrait" src="/img/masking-tape.webp?v=8" alt="Ta\u015bma maskuj\u0105ca na \u015bwie\u017co polakierowanej czarnej karoserii na linii" width="1500" height="2000" loading="lazy">
+<img class="pimg--portrait" src="/img/masking-tape.webp?v=9" alt="Ta\u015bma maskuj\u0105ca na \u015bwie\u017co polakierowanej czarnej karoserii na linii" width="1500" height="2000" loading="lazy">
 </div></section>
 
 <section class="pstack pstack--strip"><div class="wrap">
 <p class="eyebrow">Przek\u0142adki transportowe</p>
-<h2>Polakierowane detale docieraj\u0105 jak polakierowane.</h2>
+<h2>Jedna rysa \u2014 i detal wraca do lakierni. Nie u nas.</h2>
 <a class="plink" href="/pl/produkty/przekladki-transportowe/">Zobacz \u2192</a>
-<img class="pimg--wide" src="/img/dunnage-conveyor.webp?v=8" alt="Przek\u0142adki ochronne na detalach" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/dunnage-conveyor.webp?v=9" alt="Przek\u0142adki ochronne na detalach" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="pstack"><div class="wrap">
 <p class="eyebrow">Chemia lotnicza</p>
-<h2>Chemia dopuszczona do lotnictwa, zgodnie ze specyfikacj\u0105.</h2>
+<h2>Podaj specyfikacj\u0119. Dostarczymy na czas.</h2>
 <a class="plink" href="/pl/produkty/chemia-lotnicza/">Zobacz \u2192</a>
-<img class="pimg--wide" src="/img/aerospace-chemistry.webp?v=8" alt="Pracownik w pe\u0142nym kombinezonie nak\u0142adaj\u0105cy pow\u0142ok\u0119 pistoletem" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/aerospace-chemistry.webp?v=9" alt="Pracownik w pe\u0142nym kombinezonie nak\u0142adaj\u0105cy pow\u0142ok\u0119 pistoletem" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="solutions" id="solutions"><div class="wrap">
@@ -210,11 +213,11 @@ AERO_FAQ = [
 ]
 AERO_BODY = product_page(
  'Chemia lotnicza',
- 'Chemia dopuszczona do lotnictwa, zgodnie ze specyfikacją.',
+ 'Podaj specyfikację. Dostarczymy na czas.',
  'Kompleksowe zaopatrzenie chemiczne dla produkcji lotniczej, MRO i obronności — według specyfikacji lub QPL, ze zgodną logistyką.',
  'Prześlij specyfikację',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20specyfikacj%C4%99%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=8" alt="Pracownik w pełnym kombinezonie nakładający powłokę pistoletem" width="1600" height="900"><figcaption>Aplikacja powłoki w pełnych środkach ochrony — chemia w dyscyplinie.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=9" alt="Pracownik w pełnym kombinezonie nakładający powłokę pistoletem" width="1600" height="900"><figcaption>Aplikacja powłoki w pełnych środkach ochrony — chemia w dyscyplinie.</figcaption></figure>',
  [('Według specyfikacji lub zamiennik', 'Po specyfikacji, P/N lub QPL od 700+ producentów; kwalifikowane zamienniki wyraźnie oznaczone.'),('Zarządzanie chemią', 'Identyfikowalność partii, certyfikaty zgodności, karty REACH, terminy przydatności.'),('Zgodna logistyka', 'Kontrolowana temperatura, pakowanie i dokumentacja ADR — kompleksowo.'),('Kosmos w planie', 'Chemia o niskim odgazowaniu wg ECSS i NASA — w mapie drogowej.')],
  AERO_FAQ,
  'Pytania? Odpowiedzi.',
@@ -229,12 +232,14 @@ COVERS_BODY = product_page(
  'ATEX ZeroSpray',
  'Jeden pokrowiec bazowy. Dwa miesiące.',
  'Dwuwarstwowy system ochrony robotów lakierniczych: pokrowiec bazowy na robocie do dwóch miesięcy plus szybko wymieniana warstwa wierzchnia.',
- 'Zapytaj o ofertę',
- 'mailto:inbox@system.aero?subject=Zapytanie%20ofertowe%20%E2%80%94%20system.aero',
- '<figure class="solo"><img src="/img/covers-booth.webp?v=8" alt="Pokrowiec ochronny ATEX ZeroSpray założony na robota lakierniczego w kabinie" width="1124" height="2000"><figcaption>ATEX ZeroSpray na robocie lakierniczym — pokrowiec bazowy w pracy.</figcaption></figure>',
+ 'Zamów bezpłatny pokrowiec testowy',
+ 'mailto:inbox@system.aero?subject=Bezp%C5%82atny%20pokrowiec%20testowy%20%E2%80%94%20ATEX%20ZeroSpray',
+ '<figure class="solo"><img src="/img/covers-booth.webp?v=9" alt="Pokrowiec ochronny ATEX ZeroSpray założony na robota lakierniczego w kabinie" width="1124" height="2000"><figcaption>ATEX ZeroSpray na robocie lakierniczym — pokrowiec bazowy w pracy.</figcaption></figure>',
  [('Konstrukcja niskopyląca', 'Pylenie włókien z pokrowców to źródło defektów; materiał i wykończenie zbudowane wokół kontroli pylenia.'),('Przebadane przez GIG (strefy ATEX)', 'Sprawozdanie laboratorium państwowego BR-1/33/2026 — a nie własna deklaracja. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Pełne sprawozdanie (PDF)</a>'),('Bez silikonu', 'Zero ryzyka zanieczyszczenia procesu związkami PDMS.'),('Ekonomia dwóch warstw', 'Tanią warstwę wierzchnią wymieniasz często, zaprojektowaną bazową — rzadko.')],
  COVERS_FAQ,
  'Pytania? Odpowiedzi.',
+ cta2='Zapytaj o ofertę',
+ cta2_url='mailto:inbox@system.aero?subject=Zapytanie%20ofertowe%20%E2%80%94%20ATEX%20ZeroSpray',
  quote=('„Dotychczasowy pokrowiec wytrzymywał dwa tygodnie. ATEX ZeroSpray — do dwóch miesięcy. <b>Przeszli na nasze.</b>”', 'Bezpośrednie porównanie w lakierni dostawcy tier-1'),
  robots=('Chronimy roboty, które lakierują europejskie samochody', [('Dürr', 'EcoRP 3: E033i/L033i, E133i/L133i, E043i, L030i/L130i, S053i, S153i · EcoRP 4: L033iC, L030i'), ('Fanuc', 'P-250iB, P-700, P-200, M-20iA'), ('ABB', 'IRB 5350, IRB 5500-22/-25/-27, IRB 5510'), ('Yaskawa', 'EPX1250, EPX2050, EPX2800, MPX1950, MPX2600, MPX3500'), ('KUKA', 'seria KR')], ('Twój robot?', 'Dowolna marka — B+M, Kawasaki, Stäubli, CMA albo taka, której jeszcze nie znamy. Prześlij zdjęcie i wymiary.')),
  specs=('Formaty, materiały i pełne wyniki badań', '<p>System.aero produkuje pokrowce ochronne na roboty lakiernicze dla lakierni motoryzacyjnych OEM. Pokrowce powstają jako gotowe, szyte pod model robota, lub jako materiał z rolki cięty na wymiar, w szerokościach od 23 do 90 cm i więcej. Formaty: gotowe pokrowce (kartony po 10–20 szt.) lub rolki (~100 m).</p><p>Właściwości elektrostatyczne przebadane przez GIG (Główny Instytut Górnictwa) w akredytowanym przez PCA laboratorium (AB 005) wg PN-EN 60079-0 i PN-EN 60079-32-2. Wniosek sprawozdania BR-1/33/2026: dzianina ATEX ZeroSpray nie stwarza zagrożeń od elektryczności statycznej w obecności mediów palnych i może być bezpiecznie stosowana w strefach zagrożonych wybuchem. Dostępne smukłe kroje dla robotów aplikujących masy i lakierowania wnętrz.</p>'))
@@ -245,11 +250,11 @@ TAPES_FAQ = [
 ]
 TAPES_BODY = product_page(
  'Taśmy maskujące',
- 'Czysta linia. Czyste usuwanie. Odporność na piec.',
+ 'Łatwa aplikacja. Czyste usuwanie. Wytrzymuje 160 °C.',
  'Taśmy maskujące dla lakierni OEM — zwalidowane w próbach produkcyjnych pod kątem usuwania bez śladów kleju po cyklu piecowym.',
  'Zamów rolki testowe',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
- '<figure class="solo"><img src="/img/masking-tape.webp?v=8" alt="Taśma maskująca na świeżo polakierowanej czarnej karoserii na linii" width="1500" height="2000"><figcaption>Maskowanie krawędzi przy lakierowaniu bi-color — czysta linia, czyste usuwanie.</figcaption></figure>',
+ '<figure class="solo"><img src="/img/masking-tape.webp?v=9" alt="Taśma maskująca na świeżo polakierowanej czarnej karoserii na linii" width="1500" height="2000"><figcaption>Maskowanie krawędzi przy lakierowaniu bi-color — czysta linia, czyste usuwanie.</figcaption></figure>',
  [('Walidacja OEM', 'Pełna sekwencja: badania śladów silikonu, próby na linii, testy piecowe, ocena usuwania po wygrzaniu.'),('160 °C / 30 min', 'Wytrzymuje pełny cykl piecowy bez transferu kleju.'),('Gotowe na bi-color', 'Maskowanie krawędzi, linie uszczelnień, lakierowanie dwukolorowe.'),('Darmowe próbki w UE', 'Rolki do prób na linii wysyłamy bezpłatnie.')],
  TAPES_FAQ,
  'Pytania? Odpowiedzi.')
@@ -259,12 +264,12 @@ WIPES_FAQ = [
 ]
 WIPES_BODY = product_page(
  'Czyściwa',
- 'Zero pyłków. Zero silikonu. Zero kraterów.',
+ 'Zero pyłków. Zero silikonu. Czysty start każdej warstwy.',
  'Ściereczki pyłochłonne i czyściwa nasączone do przygotowania powierzchni przed lakierowaniem — najtańsze ubezpieczenie od poprawki.',
  'Zamów zestaw próbek',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=8" alt="Dłoń w rękawicy przecierająca zderzak ściereczką pyłochłonną" width="1600" height="900"><figcaption>Odpylanie przed lakierowaniem — ostatnia linia obrony przed wtrąceniami.</figcaption></figure>',
- [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują pył, włókna i pozostałości po szlifowaniu; bez silikonu, bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesączenia.')],
+ '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=9" alt="Dłoń w rękawicy przecierająca zderzak ściereczką pyłochłonną" width="1600" height="900"><figcaption>Odpylanie przed lakierowaniem — ostatnia linia obrony przed wtrąceniami.</figcaption></figure>',
+ [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują pył, włókna i pozostałości po szlifowaniu; bez silikonu — bez ryzyka kraterów — bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesączenia.')],
  WIPES_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -273,12 +278,12 @@ POLISH_FAQ = [
 ]
 POLISH_BODY = product_page(
  'System jednoetapowy',
- 'Od defektu do połysku w jednym przejściu.',
+ 'Od defektu do połysku w ~30 sekund.',
  'Kompletny system napraw punktowych dla linii wykończenia OEM: pasta polerska, gąbki i krążki ścierne.',
  'Umów próbę na linii',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/defect-correction.webp?v=8" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w jednym przejściu.</figcaption></figure>',
- [('Pasta jednoetapowa', 'Cięcie i wykończenie w jednym produkcie; bez silikonu, bez wypełniaczy.'),('Dobrane gąbki', 'Dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Zgodny z LZO; rzeczywiste usuwanie defektu, nie glazura.')],
+ '<figure class="solo wide"><img src="/img/defect-correction.webp?v=9" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w jednym przejściu.</figcaption></figure>',
+ [('~30 sekund na defekt', 'Szlifowanie i jednoetapowe polerowanie łącznie — na typowych defektach finish decku.'),('Pasta jednoetapowa + dobrane gąbki', 'Cięcie i wykończenie w jednym produkcie — bez silikonu, bez wypełniaczy — gąbki dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Zgodny z LZO; rzeczywiste usuwanie defektu, nie glazura.')],
  POLISH_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -287,11 +292,11 @@ DUNNAGE_FAQ = [
 ]
 DUNNAGE_BODY = product_page(
  'Przekładki',
- 'Polakierowane detale docierają jak polakierowane.',
+ 'Jedna rysa — i detal wraca do lakierni. Nie u nas.',
  'Przekładki ochronne na wymiar do transportu polakierowanych detali — projektowane pod Twój detal, stojak i linię.',
  'Prześlij zdjęcia detalu',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=8" alt="Przekładki ochronne na polakierowanych detalach na przenośniku" width="1600" height="900"><figcaption>Przekładki w pracy — polakierowane detale chronione na linii.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=9" alt="Przekładki ochronne na polakierowanych detalach na przenośniku" width="1600" height="900"><figcaption>Przekładki w pracy — polakierowane detale chronione na linii.</figcaption></figure>',
  [('Pod geometrię detalu', 'Rdzenie z PP komorowego z nierysującą wyściółką, taśmami i haczykami.'),('14 dni do serii', 'Od rysunku — albo zdjęć i wymiarów — do dostawy seryjnej.'),('96,9% wykorzystania arkusza', 'Rozkroje optymalizowane algorytmicznie: materiał, za który nie płacisz dwa razy.'),('Bezpieczne dla klasy A', 'Zderzaki, spojlery, listwy — każdy delikatny detal.')],
  DUNNAGE_FAQ,
  'Pytania? Odpowiedzi.')
