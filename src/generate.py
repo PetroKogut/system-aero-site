@@ -185,7 +185,7 @@ HOME_BODY = f'''
 
 <section class="pstack pstack--strip"><div class="wrap">
 <p class="eyebrow">One-step paint defect correction</p>
-<h2>Defect to gloss in ~30 seconds.</h2>
+<h2>Defect to gloss in seconds.</h2>
 <a class="plink" href="/products/paint-defect-correction/">Explore \u2192</a>
 <img class="pimg--wide" src="/img/defect-correction.webp?v=9" alt="Spot repair on painted panel" width="1600" height="900" loading="lazy">
 </div></section>
@@ -316,12 +316,12 @@ POLISH_FAQ = [
 ]
 POLISH_BODY = product_page(
  'One-step system',
- 'Defect to gloss in ~30 seconds.',
+ 'Defect to gloss in seconds.',
  'A complete spot-repair system for OEM finish lines: one-step polishing compound, buffing pads and sanding discs.',
  'Book a line trial',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/defect-correction.webp?v=9" alt="Spot repair sander on a glossy black painted panel at a finish deck" width="1600" height="900"><figcaption>Spot repair on the finish deck — one pass from defect to gloss.</figcaption></figure>',
- [('~30 seconds per defect', 'Sanding and one-step polishing included — measured on typical finish-deck defects.'),('One-step compound + matched pads', "Cut and finish in a single product — silicone-free, filler-free — with buffing pads tuned to the compound's breakdown curve."),('Finishing discs', 'Pyramid-structured abrasive for the sanding step.'),('Engineered for OEM', 'VOC-compliant, genuine defect removal — not glaze that washes out.')],
+ '<figure class="solo wide"><img src="/img/defect-correction.webp?v=9" alt="Spot repair sander on a glossy black painted panel at a finish deck" width="1600" height="900"><figcaption>Spot repair on the finish deck — defect to gloss in seconds.</figcaption></figure>',
+ [('30 seconds per defect', 'Sanding and one-step polishing included — measured on typical finish-deck defects.'),('One-step compound + matched pads', "Cut and finish in a single product — silicone-free, filler-free — with buffing pads tuned to the compound's breakdown curve."),('Finishing discs', 'Pyramid-structured abrasive for the sanding step.'),('Engineered for OEM', 'VOC-compliant, genuine defect removal — not glaze that washes out.')],
  POLISH_FAQ,
  'Questions? Answers.')
 

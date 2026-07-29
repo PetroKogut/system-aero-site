@@ -147,7 +147,7 @@ HOME_BODY = f'''
 
 <section class="pstack pstack--strip"><div class="wrap">
 <p class="eyebrow">Jednoetapowa korekta defekt\u00f3w lakieru</p>
-<h2>Od defektu do po\u0142ysku w ~30 sekund.</h2>
+<h2>Od defektu do po\u0142ysku w sekundy.</h2>
 <a class="plink" href="/pl/produkty/korekta-defektow-lakieru/">Zobacz \u2192</a>
 <img class="pimg--wide" src="/img/defect-correction.webp?v=9" alt="Naprawa punktowa lakieru" width="1600" height="900" loading="lazy">
 </div></section>
@@ -278,12 +278,12 @@ POLISH_FAQ = [
 ]
 POLISH_BODY = product_page(
  'System jednoetapowy',
- 'Od defektu do połysku w ~30 sekund.',
+ 'Od defektu do połysku w sekundy.',
  'Kompletny system napraw punktowych dla linii wykończenia OEM: pasta polerska, gąbki i krążki ścierne.',
  'Umów próbę na linii',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/defect-correction.webp?v=9" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w jednym przejściu.</figcaption></figure>',
- [('~30 sekund na defekt', 'Szlifowanie i jednoetapowe polerowanie łącznie — na typowych defektach finish decku.'),('Pasta jednoetapowa + dobrane gąbki', 'Cięcie i wykończenie w jednym produkcie — bez silikonu, bez wypełniaczy — gąbki dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Zgodny z LZO; rzeczywiste usuwanie defektu, nie glazura.')],
+ '<figure class="solo wide"><img src="/img/defect-correction.webp?v=9" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w sekundy.</figcaption></figure>',
+ [('30 sekund na defekt', 'Szlifowanie i jednoetapowe polerowanie łącznie — na typowych defektach finish decku.'),('Pasta jednoetapowa + dobrane gąbki', 'Cięcie i wykończenie w jednym produkcie — bez silikonu, bez wypełniaczy — gąbki dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Zgodny z LZO; rzeczywiste usuwanie defektu, nie glazura.')],
  POLISH_FAQ,
  'Pytania? Odpowiedzi.')
 
