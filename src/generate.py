@@ -284,7 +284,7 @@ COVERS_BODY = product_page(
 
 TAPES_FAQ = [
  ("What temperature does the tape withstand?", "160 \u00b0C for 30 minutes \u2014 a full automotive bake cycle."),
- ("Can I get samples?", "Yes \u2014 rolls for line trials shipped free in the EU."),
+ ("Can I get samples?", "Yes \u2014 rolls for line trials shipped free worldwide."),
 ]
 TAPES_BODY = product_page(
  'Masking tapes',
@@ -293,7 +293,7 @@ TAPES_BODY = product_page(
  'Request sample rolls',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
  '<figure class="solo"><img src="/img/masking-tape.webp?v=9" alt="Masking tape applied along a freshly painted black car body on the line" width="1500" height="2000"><figcaption>Edge masking on a bi-color job — clean line, clean removal.</figcaption></figure>',
- [('OEM-validated', 'Full validation sequence: silicone-trace lab tests, line application trials, oven residue tests, post-bake removal.'),('160 °C / 30 min', 'Survives a full automotive bake cycle without adhesive transfer.'),('Bi-color ready', 'Edge masking, sealing lines and two-tone paint jobs.'),('Free EU samples', 'Rolls for line trials shipped free within the EU.')],
+ [('OEM-validated', 'Full validation sequence: silicone-trace lab tests, line application trials, oven residue tests, post-bake removal.'),('160 °C / 30 min', 'Survives a full automotive bake cycle without adhesive transfer.'),('Bi-color ready', 'Edge masking, sealing lines and two-tone paint jobs.'),('Free samples, shipped worldwide', 'Rolls for line trials — free, wherever your line is.')],
  TAPES_FAQ,
  'Questions? Answers.')
 
