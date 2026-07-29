@@ -335,7 +335,7 @@ DUNNAGE_BODY = product_page(
  'Send part photos for a concept',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=9" alt="Padded protective separators on painted parts hanging on a conveyor" width="1600" height="900"><figcaption>Separators in service — painted parts protected on the line.</figcaption></figure>',
- [('Engineered to the part', 'Corrugated PP cores with non-scratch padding, straps and hooks — shaped to geometry, rack and conveyor.'),('14 days to serial', 'From drawing — or just photos and measurements — to serial delivery.'),('96.9% sheet utilization', "ILP-optimized cutting layouts: material you don't pay for twice."),('Class-A safe', 'Bumpers, spoilers, trims — any painted or delicate surface part.')],
+ [('Engineered to the part', 'PE foam construction with a non-scratch surface, straps and hooks — shaped to geometry, rack and conveyor.'),('14 days to serial', 'From drawing — or just photos and measurements — to serial delivery.'),('96.9% sheet utilization', "ILP-optimized cutting layouts: material you don't pay for twice."),('Class-A safe', 'Bumpers, spoilers, trims — any painted or delicate surface part.')],
  DUNNAGE_FAQ,
  'Questions? Answers.')
 
@@ -413,8 +413,8 @@ PAGES = [
       body=POLISH_BODY, ld=[product_ld("One-step paint defect correction system", "Complete AIO spot-repair system for OEM finish lines: silicone-free polishing compound, buffing pads, finishing discs.", "/products/paint-defect-correction/"), faq_ld(POLISH_FAQ)]),
  dict(slug="/products/dunnage-parts-separators/", pl_slug="/pl/produkty/przekladki-transportowe/",
       title="Custom dunnage and parts separators for painted parts | System.aero",
-      desc="Corrugated PP separators with non-scratch padding, straps and hooks, engineered to your part and rack. Development in 14 days, 96.9% sheet utilization.",
-      body=DUNNAGE_BODY, ld=[product_ld("Custom dunnage and parts separators", "Custom protective dunnage for transporting painted automotive parts: corrugated PP cores with soft padding, straps and hooks.", "/products/dunnage-parts-separators/"), faq_ld(DUNNAGE_FAQ)]),
+      desc="PE foam separators with a non-scratch surface, straps and hooks, engineered to your part and rack. Development in 14 days, 96.9% sheet utilization.",
+      body=DUNNAGE_BODY, ld=[product_ld("Custom dunnage and parts separators", "Custom protective dunnage for transporting painted automotive parts: PE foam separators with straps and hooks.", "/products/dunnage-parts-separators/"), faq_ld(DUNNAGE_FAQ)]),
  dict(slug="/solutions/automotive-paintshops/", pl_slug="/pl/rozwiazania/dla-lakierni/",
       title="One supplier for your entire paintshop | System.aero",
       desc="Robot covers, masking tapes, wipes, defect correction and QC support under one vendor number. Delivering to OEM and tier-1 paintshops across Europe.",

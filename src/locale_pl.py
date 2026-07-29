@@ -297,7 +297,7 @@ DUNNAGE_BODY = product_page(
  'Prześlij zdjęcia detalu',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/dunnage-conveyor.webp?v=9" alt="Przekładki ochronne na polakierowanych detalach na przenośniku" width="1600" height="900"><figcaption>Przekładki w pracy — polakierowane detale chronione na linii.</figcaption></figure>',
- [('Pod geometrię detalu', 'Rdzenie z PP komorowego z nierysującą wyściółką, taśmami i haczykami.'),('14 dni do serii', 'Od rysunku — albo zdjęć i wymiarów — do dostawy seryjnej.'),('96,9% wykorzystania arkusza', 'Rozkroje optymalizowane algorytmicznie: materiał, za który nie płacisz dwa razy.'),('Bezpieczne dla klasy A', 'Zderzaki, spojlery, listwy — każdy delikatny detal.')],
+ [('Pod geometrię detalu', 'Konstrukcja z pianki PE z nierysującą powierzchnią, taśmami i haczykami — pod geometrię detalu, stojaka i przenośnika.'),('14 dni do serii', 'Od rysunku — albo zdjęć i wymiarów — do dostawy seryjnej.'),('96,9% wykorzystania arkusza', 'Rozkroje optymalizowane algorytmicznie: materiał, za który nie płacisz dwa razy.'),('Bezpieczne dla klasy A', 'Zderzaki, spojlery, listwy — każdy delikatny detal.')],
  DUNNAGE_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -374,8 +374,8 @@ PAGES_PL = [
       body=POLISH_BODY, ld=[product_ld("Jednoetapowy system korekty defekt\u00f3w lakieru", "Kompletny system napraw punktowych AIO dla linii wyko\u0144czenia OEM: pasta bez silikonu, g\u0105bki polerskie, kr\u0105\u017cki wyka\u0144czaj\u0105ce.", "/pl/produkty/korekta-defektow-lakieru/"), faq_ld(POLISH_FAQ)]),
  dict(slug="/pl/produkty/przekladki-transportowe/", en_slug="/products/dunnage-parts-separators/",
       title="Przek\u0142adki transportowe i separatory detali na wymiar | System.aero",
-      desc="Przek\u0142adki z polipropylenu komorowego z nierysuj\u0105c\u0105 wy\u015bci\u00f3\u0142k\u0105, projektowane pod detal i stojak. Opracowanie w 14 dni, 96,9% wykorzystania arkusza.",
-      body=DUNNAGE_BODY, ld=[product_ld("Przek\u0142adki transportowe i separatory detali", "Przek\u0142adki ochronne na wymiar do transportu polakierowanych detali: rdzenie PP z mi\u0119kk\u0105 wy\u015bci\u00f3\u0142k\u0105, ta\u015bmami i haczykami.", "/pl/produkty/przekladki-transportowe/"), faq_ld(DUNNAGE_FAQ)]),
+      desc="Przek\u0142adki z pianki PE z nierysuj\u0105c\u0105 powierzchni\u0105, projektowane pod detal i stojak. Opracowanie w 14 dni, 96,9% wykorzystania arkusza.",
+      body=DUNNAGE_BODY, ld=[product_ld("Przek\u0142adki transportowe i separatory detali", "Przek\u0142adki ochronne na wymiar do transportu polakierowanych detali: pianka PE, ta\u015bmy i haczyki.", "/pl/produkty/przekladki-transportowe/"), faq_ld(DUNNAGE_FAQ)]),
  dict(slug="/pl/rozwiazania/dla-lakierni/", en_slug="/solutions/automotive-paintshops/",
       title="Jeden dostawca dla ca\u0142ej lakierni | System.aero",
       desc="Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w i wsparcie QC pod jednym numerem dostawcy. Dostawy do lakierni OEM i tier-1 w Europie.",
