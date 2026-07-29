@@ -354,7 +354,7 @@ PAGES_PL = [
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ), EXPO_LD]),
  dict(slug="/pl/produkty/chemia-lotnicza/", en_slug="/products/aerospace-chemistry/",
       title="Chemia lotnicza \u2014 wed\u0142ug specyfikacji, QPL i numeru katalogowego | System.aero",
-      desc="Farby, uszczelniacze, kleje, \u015brodki czyszcz\u0105ce, smary i ta\u015bmy lotnicze od ponad 700 producent\u00f3w. Identyfikowalno\u015b\u0107 partii, karty REACH, logistyka ADR. Dostawy z Polski.",
+      desc="Farby, uszczelniacze, kleje, \u015brodki czyszcz\u0105ce, smary i ta\u015bmy lotnicze od ponad 700 producent\u00f3w. Identyfikowalno\u015b\u0107 partii, karty REACH, logistyka ADR.",
       body=AERO_BODY, ld=[product_ld("Chemia lotnicza \u2014 zaopatrzenie", "Chemia lotnicza pozyskiwana wed\u0142ug specyfikacji, numeru katalogowego lub QPL, ze zgodn\u0105 dokumentacj\u0105 i logistyk\u0105.", "/pl/produkty/chemia-lotnicza/"), faq_ld(AERO_FAQ)]),
  dict(slug="/pl/produkty/pokrowce-na-roboty-lakiernicze/", en_slug="/products/paint-robot-covers/",
       title="Pokrowce na roboty lakiernicze \u2014 ATEX ZeroSpray, do 2 miesi\u0119cy na pokrowcu bazowym | System.aero",
