@@ -200,7 +200,7 @@ HOME_BODY = f'''
 
 <div class="numstrip"><div class="wrap">
 <div class="num"><b>2 mies.</b><span>\u017cywotno\u015b\u0107 pokrowca bazowego</span></div>
-<div class="num"><b>700+</b><span>producent\u00f3w chemii lotniczej w sieci</span></div>
+<div class="num"><b>700+</b><span>producent\u00f3w chemii lotniczej</span></div>
 <div class="num"><b>GIG</b><span>badania laboratorium pa\u0144stwowego (strefy ATEX)</span></div>
 <div class="num"><b>10\u201315</b><span>dni roboczych \u2014 typowy termin realizacji</span></div>
 </div></div>
@@ -235,7 +235,7 @@ COVERS_BODY = product_page(
  'Zamów bezpłatny pokrowiec testowy',
  'mailto:inbox@system.aero?subject=Bezp%C5%82atny%20pokrowiec%20testowy%20%E2%80%94%20ATEX%20ZeroSpray',
  '<figure class="solo"><img src="/img/covers-booth.webp?v=9" alt="Pokrowiec ochronny ATEX ZeroSpray założony na robota lakierniczego w kabinie" width="1124" height="2000"><figcaption>ATEX ZeroSpray na robocie lakierniczym — pokrowiec bazowy w pracy.</figcaption></figure>',
- [('Konstrukcja niskopyląca', 'Pylenie włókien z pokrowców to źródło defektów; materiał i wykończenie zbudowane wokół kontroli pylenia.'),('Przebadane przez GIG (strefy ATEX)', 'Sprawozdanie laboratorium państwowego BR-1/33/2026 — a nie własna deklaracja. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Pełne sprawozdanie (PDF)</a>'),('Bez silikonu', 'Zero ryzyka zanieczyszczenia procesu związkami PDMS.'),('Ekonomia dwóch warstw', 'Tanią warstwę wierzchnią wymieniasz często, zaprojektowaną bazową — rzadko.')],
+ [('Konstrukcja niskopyląca', 'Pylenie włókien z pokrowców to źródło defektów; materiał i wykończenie zbudowane wokół kontroli pylenia.'),('Przebadane przez GIG (strefy ATEX)', 'Sprawozdanie laboratorium państwowego BR-1/33/2026 — a nie własna deklaracja. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Pełne sprawozdanie (PDF)</a>'),('Bez silikonu', 'Zero ryzyka zanieczyszczenia procesu związkami PDMS — zero kraterów silikonowych.'),('Ekonomia dwóch warstw', 'Tanią warstwę wierzchnią wymieniasz często, zaprojektowaną bazową — rzadko.')],
  COVERS_FAQ,
  'Pytania? Odpowiedzi.',
  cta2='Zapytaj o ofertę',
@@ -269,7 +269,7 @@ WIPES_BODY = product_page(
  'Zamów zestaw próbek',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=9" alt="Dłoń w rękawicy przecierająca zderzak ściereczką pyłochłonną" width="1600" height="900"><figcaption>Odpylanie przed lakierowaniem — ostatnia linia obrony przed wtrąceniami.</figcaption></figure>',
- [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują pył, włókna i pozostałości po szlifowaniu; bez silikonu — bez ryzyka kraterów — bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesączenia.')],
+ [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują i wiążą pył, włókna i pozostałości po szlifowaniu przed lakierowaniem; bez silikonu, bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesączenia.')],
  WIPES_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -310,7 +310,7 @@ PAINTSHOP_BODY = prose_page("Dla lakierni", "Jeden zakwalifikowany dostawca dla 
 <li><strong>Kabina</strong> \u2014 <a href="/pl/produkty/pokrowce-na-roboty-lakiernicze/">okryte roboty</a>, zero zanieczyszcze\u0144 w\u0142\u00f3knami</li>
 <li><strong>Maskowanie</strong> \u2014 <a href="/pl/produkty/tasmy-maskujace/">czyste linie przez piec</a></li>
 <li><strong>Przygotowanie</strong> \u2014 <a href="/pl/produkty/czysciwa-przemyslowe/">odpylanie przed ka\u017cd\u0105 warstw\u0105</a></li>
-<li><strong>Wyko\u0144czenie</strong> \u2014 <a href="/pl/produkty/korekta-defektow-lakieru/">naprawa punktowa w jednym przej\u015bciu</a></li>
+<li><strong>Wyko\u0144czenie</strong> \u2014 <a href="/pl/produkty/korekta-defektow-lakieru/">naprawa punktowa w sekundy</a></li>
 <li><strong>QC</strong> \u2014 kontrola grubo\u015bci pow\u0142oki</li>
 </ul>
 <p>Dostarczamy ju\u017c do lakierni OEM i tier-1 w Polsce i Europie \u2014 7 zak\u0142ad\u00f3w i liczba ta ro\u015bnie.</p>
@@ -354,7 +354,7 @@ PAGES_PL = [
       body=HOME_BODY, ld=[faq_ld(HOME_FAQ), EXPO_LD]),
  dict(slug="/pl/produkty/chemia-lotnicza/", en_slug="/products/aerospace-chemistry/",
       title="Chemia lotnicza \u2014 wed\u0142ug specyfikacji, QPL i numeru katalogowego | System.aero",
-      desc="Farby, uszczelniacze, kleje, \u015brodki czyszcz\u0105ce, smary i ta\u015bmy lotnicze od ponad 700 producent\u00f3w. Identyfikowalno\u015b\u0107 partii, karty REACH, logistyka ADR. Polska.",
+      desc="Farby, uszczelniacze, kleje, \u015brodki czyszcz\u0105ce, smary i ta\u015bmy lotnicze od ponad 700 producent\u00f3w. Identyfikowalno\u015b\u0107 partii, karty REACH, logistyka ADR. Dostawy z Polski.",
       body=AERO_BODY, ld=[product_ld("Chemia lotnicza \u2014 zaopatrzenie", "Chemia lotnicza pozyskiwana wed\u0142ug specyfikacji, numeru katalogowego lub QPL, ze zgodn\u0105 dokumentacj\u0105 i logistyk\u0105.", "/pl/produkty/chemia-lotnicza/"), faq_ld(AERO_FAQ)]),
  dict(slug="/pl/produkty/pokrowce-na-roboty-lakiernicze/", en_slug="/products/paint-robot-covers/",
       title="Pokrowce na roboty lakiernicze \u2014 ATEX ZeroSpray, do 2 miesi\u0119cy na pokrowcu bazowym | System.aero",
@@ -366,7 +366,7 @@ PAGES_PL = [
       body=TAPES_BODY, ld=[product_ld("Ta\u015bmy maskuj\u0105ce dla lakierni", "Ta\u015bmy maskuj\u0105ce zwalidowane przez OEM, usuwane bez \u015blad\u00f3w kleju po cyklu piecowym.", "/pl/produkty/tasmy-maskujace/"), faq_ld(TAPES_FAQ)]),
  dict(slug="/pl/produkty/czysciwa-przemyslowe/", en_slug="/products/industrial-wipes/",
       title="\u015aciereczki py\u0142och\u0142onne i czy\u015bciwa nas\u0105czone dla lakierni | System.aero",
-      desc="Bezsilikonowe \u015bciereczki py\u0142och\u0142onne (tack rags) i czy\u015bciwa nas\u0105czone do przygotowania powierzchni przed lakierowaniem. Odmiany do lakier\u00f3w wodnych. Darmowe pr\u00f3bki.",
+      desc="Bezsilikonowe \u015bciereczki py\u0142och\u0142onne i czy\u015bciwa nas\u0105czone do przygotowania powierzchni przed lakierowaniem. Darmowe pr\u00f3bki.",
       body=WIPES_BODY, ld=[product_ld("Czy\u015bciwa przemys\u0142owe i \u015bciereczki py\u0142och\u0142onne", "Bezsilikonowe \u015bciereczki py\u0142och\u0142onne i czy\u015bciwa nas\u0105czone do przygotowania powierzchni w lakierni.", "/pl/produkty/czysciwa-przemyslowe/"), faq_ld(WIPES_FAQ)]),
  dict(slug="/pl/produkty/korekta-defektow-lakieru/", en_slug="/products/paint-defect-correction/",
       title="Jednoetapowa korekta defekt\u00f3w lakieru dla linii OEM | System.aero",
@@ -374,7 +374,7 @@ PAGES_PL = [
       body=POLISH_BODY, ld=[product_ld("Jednoetapowy system korekty defekt\u00f3w lakieru", "Kompletny system napraw punktowych AIO dla linii wyko\u0144czenia OEM: pasta bez silikonu, g\u0105bki polerskie, kr\u0105\u017cki wyka\u0144czaj\u0105ce.", "/pl/produkty/korekta-defektow-lakieru/"), faq_ld(POLISH_FAQ)]),
  dict(slug="/pl/produkty/przekladki-transportowe/", en_slug="/products/dunnage-parts-separators/",
       title="Przek\u0142adki transportowe i separatory detali na wymiar | System.aero",
-      desc="Przek\u0142adki z polipropylenu komorowego z nierysuj\u0105c\u0105 wy\u015bci\u00f3\u0142k\u0105, ta\u015bmami i haczykami, projektowane pod detal i stojak. Opracowanie w 14 dni, 96,9% wykorzystania arkusza.",
+      desc="Przek\u0142adki z polipropylenu komorowego z nierysuj\u0105c\u0105 wy\u015bci\u00f3\u0142k\u0105, projektowane pod detal i stojak. Opracowanie w 14 dni, 96,9% wykorzystania arkusza.",
       body=DUNNAGE_BODY, ld=[product_ld("Przek\u0142adki transportowe i separatory detali", "Przek\u0142adki ochronne na wymiar do transportu polakierowanych detali: rdzenie PP z mi\u0119kk\u0105 wy\u015bci\u00f3\u0142k\u0105, ta\u015bmami i haczykami.", "/pl/produkty/przekladki-transportowe/"), faq_ld(DUNNAGE_FAQ)]),
  dict(slug="/pl/rozwiazania/dla-lakierni/", en_slug="/solutions/automotive-paintshops/",
       title="Jeden dostawca dla ca\u0142ej lakierni | System.aero",

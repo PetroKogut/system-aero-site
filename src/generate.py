@@ -238,7 +238,7 @@ HOME_BODY = f'''
 
 <div class="numstrip"><div class="wrap">
 <div class="num"><b>2 mo</b><span>base cover service life</span></div>
-<div class="num"><b>700+</b><span>aerospace manufacturers in our network</span></div>
+<div class="num"><b>700+</b><span>aerospace manufacturers</span></div>
 <div class="num"><b>GIG</b><span>state-lab tested for ATEX zones</span></div>
 <div class="num"><b>10–15</b><span>business days typical lead time</span></div>
 </div></div>
@@ -273,7 +273,7 @@ COVERS_BODY = product_page(
  'Request a free test cover',
  'mailto:inbox@system.aero?subject=Free%20test%20cover%20%E2%80%94%20ATEX%20ZeroSpray',
  '<figure class="solo"><img src="/img/covers-booth.webp?v=9" alt="ATEX ZeroSpray protective cover installed on a painting robot inside a paint booth" width="1124" height="2000"><figcaption>ATEX ZeroSpray on a painting robot — base cover in service.</figcaption></figure>',
- [('Low-lint construction', 'Fiber shedding from covers causes paint defects; our material and finishing are built around lint control.'),('GIG-tested for ATEX zones', 'State-laboratory test report BR-1/33/2026 — not a self-issued declaration. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Full report (PDF)</a>'),('Silicone-free', 'No PDMS contamination risk to your paint process.'),('Two-layer economics', 'Change the cheap top layer often, the engineered base layer rarely.')],
+ [('Low-lint construction', 'Fiber shedding from covers causes paint defects; our material and finishing are built around lint control.'),('GIG-tested for ATEX zones', 'State-laboratory test report BR-1/33/2026 — not a self-issued declaration. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Full report (PDF)</a>'),('Silicone-free', 'No PDMS contamination risk to your paint process — no silicone craters.'),('Two-layer economics', 'Change the cheap top layer often, the engineered base layer rarely.')],
  COVERS_FAQ,
  'Questions? Answers.',
  cta2='Request a quote',
@@ -307,7 +307,7 @@ WIPES_BODY = product_page(
  'Request a sample pack',
  'mailto:inbox@system.aero?subject=Sample%20request%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=9" alt="Gloved hand wiping an unpainted bumper with a tack cloth in a paintshop" width="1600" height="900"><figcaption>Tack-off before paint — the last line of defense against inclusions.</figcaption></figure>',
- [('Tack cloths (tack rags)', 'Capture and hold dust, lint and sanding residue before basecoat and clearcoat; silicone-free — no crater risk — safe for waterborne and solvent systems.'),('Presaturated wipes', 'Consistent solvent load every wipe, lower VOC exposure than open-bucket wetting, no over-saturation.')],
+ [('Tack cloths (tack rags)', 'Capture and hold dust, lint and sanding residue before coating; silicone-free, safe for waterborne and solvent systems.'),('Presaturated wipes', 'Consistent solvent load every wipe, lower VOC exposure than open-bucket wetting, no over-saturation.')],
  WIPES_FAQ,
  'Questions? Answers.')
 
@@ -348,7 +348,7 @@ PAINTSHOP_BODY = prose_page("For automotive paintshops", "One qualified supplier
 <li><strong>Booth</strong> \u2014 <a href="/products/paint-robot-covers/">covered robots</a>, zero fiber contamination</li>
 <li><strong>Masking</strong> \u2014 <a href="/products/masking-tapes/">clean lines through the oven</a></li>
 <li><strong>Prep</strong> \u2014 <a href="/products/industrial-wipes/">tack-off before every coat</a></li>
-<li><strong>Finish</strong> \u2014 <a href="/products/paint-defect-correction/">one-pass spot repair</a></li>
+<li><strong>Finish</strong> \u2014 <a href="/products/paint-defect-correction/">spot repair in seconds</a></li>
 <li><strong>QC</strong> \u2014 coating thickness checks</li>
 </ul>
 <p>We already deliver into OEM and tier-1 paintshops in Poland and Europe \u2014 7 plants and counting.</p>
@@ -401,7 +401,7 @@ PAGES = [
       body=COVERS_BODY, ld=[product_ld("ATEX ZeroSpray paint robot covers", "Two-layer protective cover system for painting robots: base cover lasting up to two months plus quick-change top layer. GIG-tested for explosion hazard zones.", "/products/paint-robot-covers/"), faq_ld(COVERS_FAQ)]),
  dict(slug="/products/masking-tapes/", pl_slug="/pl/produkty/tasmy-maskujace/",
       title="Masking tapes for OEM paintshops \u2014 residue-free after bake | System.aero",
-      desc="Paintshop masking tapes validated in OEM production trials: silicone-trace tested, oven tested at 160\u00b0C/30 min, residue-free removal. Samples shipped free in the EU.",
+      desc="Paintshop masking tapes validated in OEM production trials: silicone-trace tested, oven tested at 160\u00b0C/30 min, residue-free removal.",
       body=TAPES_BODY, ld=[product_ld("Paintshop masking tapes", "OEM-validated masking tapes for automotive paintshops with residue-free removal after bake cycles.", "/products/masking-tapes/"), faq_ld(TAPES_FAQ)]),
  dict(slug="/products/industrial-wipes/", pl_slug="/pl/produkty/czysciwa-przemyslowe/",
       title="Tack cloths and presaturated wipes for paintshops | System.aero",
