@@ -100,9 +100,9 @@ figcaption{font-size:13.5px;color:var(--faint);margin-top:10px}
 /* prose (product pages) */
 .prose{max-width:760px}
 .prose h1{font-size:clamp(30px,4vw,46px);font-weight:600;line-height:1.15;letter-spacing:-.02em;margin-bottom:16px}
-.prose p.lead{font-size:19px;color:var(--muted);margin-bottom:8px}
+.prose p.lead{font-size:21px;color:var(--ink);font-weight:500;line-height:1.5;margin-bottom:20px;max-width:56ch}
 .prose h2{font-size:24px;font-weight:600;letter-spacing:-.01em;margin:44px 0 14px}
-.prose p{margin-bottom:16px}
+.prose p{margin-bottom:16px;color:var(--muted)}
 .prose ul{margin:0 0 20px 22px}
 .prose li{margin-bottom:10px}
 .prose li::marker{color:var(--red)}
