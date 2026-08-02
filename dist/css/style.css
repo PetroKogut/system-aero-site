@@ -126,6 +126,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 footer a{color:var(--muted)}
 
 /* about */
+.about{padding-top:52px}
 .about p{max-width:64ch;color:var(--muted);font-size:17px}
 
 @media (max-width:860px){
