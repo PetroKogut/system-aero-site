@@ -170,7 +170,7 @@ HOME_BODY = f'''
 <p class="eyebrow">Chemia lotnicza</p>
 <h2>Podaj specyfikacj\u0119. Dostarczymy na czas.</h2>
 <a class="plink" href="/pl/produkty/chemia-lotnicza/">Zobacz \u2192</a>
-<img class="pimg--wide" src="/img/aerospace-chemistry.webp?v=9" alt="Pracownik w pe\u0142nym kombinezonie nak\u0142adaj\u0105cy pow\u0142ok\u0119 pistoletem" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/aerospace-chemistry-cans.webp?v=9" alt="Kanistry i puszki chemii lotniczej zapakowane do wysy\u0142ki" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="solutions" id="solutions"><div class="wrap">
@@ -217,7 +217,7 @@ AERO_BODY = product_page(
  'Kompleksowe zaopatrzenie chemiczne dla produkcji lotniczej, MRO i obronności — według specyfikacji lub QPL, ze zgodną logistyką.',
  'Prześlij specyfikację',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20specyfikacj%C4%99%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=9" alt="Pracownik w pełnym kombinezonie nakładający powłokę pistoletem" width="1600" height="900"><figcaption>Aplikacja powłoki w pełnych środkach ochrony — chemia w dyscyplinie.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/aerospace-chemistry-cans.webp?v=9" alt="Kanistry i puszki chemii lotniczej zapakowane do wysyłki" width="1600" height="900"><figcaption>Spakowane do wysyłki — chemia z logistyką zgodną z ADR.</figcaption></figure>',
  [('Według specyfikacji lub zamiennik', 'Po specyfikacji, P/N lub QPL od 700+ producentów; kwalifikowane zamienniki wyraźnie oznaczone.'),('Zarządzanie chemią', 'Identyfikowalność partii, certyfikaty zgodności, karty REACH, terminy przydatności.'),('Zgodna logistyka', 'Kontrolowana temperatura, pakowanie i dokumentacja ADR — kompleksowo.'),('Kosmos w planie', 'Chemia o niskim odgazowaniu wg ECSS i NASA — w mapie drogowej.')],
  AERO_FAQ,
  'Pytania? Odpowiedzi.',

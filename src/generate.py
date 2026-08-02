@@ -208,7 +208,7 @@ HOME_BODY = f'''
 <p class="eyebrow">Aerospace chemistry</p>
 <h2>Name the spec. We'll deliver it on time.</h2>
 <a class="plink" href="/products/aerospace-chemistry/">Explore \u2192</a>
-<img class="pimg--wide" src="/img/aerospace-chemistry.webp?v=9" alt="Worker in full PPE applying coating with a spray gun" width="1600" height="900" loading="lazy">
+<img class="pimg--wide" src="/img/aerospace-chemistry-cans.webp?v=9" alt="Canisters and cans of aerospace chemistry packed in boxes for dispatch" width="1600" height="900" loading="lazy">
 </div></section>
 
 <section class="solutions" id="solutions"><div class="wrap">
@@ -255,7 +255,7 @@ AERO_BODY = product_page(
  'Complete chemical supply for aviation manufacturing, MRO and defense — sourced against your specification or QPL, delivered with compliant logistics.',
  'Send us your specification',
  'mailto:inbox@system.aero?subject=Specification%20inquiry%20%E2%80%94%20system.aero',
- '<figure class="solo wide"><img src="/img/aerospace-chemistry.webp?v=9" alt="Worker in full PPE applying coating with a spray gun" width="1600" height="900"><figcaption>Coating application in full PPE — chemistry handled with discipline.</figcaption></figure>',
+ '<figure class="solo wide"><img src="/img/aerospace-chemistry-cans.webp?v=9" alt="Canisters and cans of aerospace chemistry packed in boxes for dispatch" width="1600" height="900"><figcaption>Packed for dispatch — chemistry delivered with compliant hazmat logistics.</figcaption></figure>',
  [('To spec, or qualified equivalent', 'Sourced by specification, P/N or QPL from 700+ manufacturers; spec-compliant equivalents clearly marked when you want options.'),('Chemical management', 'Batch traceability, certificates of conformity, REACH SDS, shelf-life management.'),('Compliant logistics', 'Temperature-controlled storage and transport, hazmat packaging and documentation, end to end.'),('Space on the roadmap', 'Low-outgassing chemistry per ECSS and NASA requirements is coming.')],
  AERO_FAQ,
  'Questions? Answers.',
