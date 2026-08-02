@@ -283,7 +283,7 @@ POLISH_BODY = product_page(
  'Umów próbę na linii',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/defect-correction.webp?v=10" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w sekundy.</figcaption></figure>',
- [('30 sekund na defekt', 'Szlifowanie i jednoetapowe polerowanie łącznie — na typowych defektach finish decku.'),('Pasta jednoetapowa + dobrane gąbki', 'Cięcie i wykończenie w jednym produkcie — bez silikonu, bez wypełniaczy — gąbki dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Zgodny z LZO; rzeczywiste usuwanie defektu, nie glazura.')],
+ [('30 sekund na defekt', 'Szlifowanie i jednoetapowe polerowanie łącznie — na typowych defektach finish decku.'),('Pasta jednoetapowa + dobrane gąbki', 'Cięcie i wykończenie w jednym produkcie — bez silikonu, bez wypełniaczy — gąbki dostrojone do krzywej rozpadu pasty.'),('Krążki wykańczające', 'Ścierniwo o strukturze piramidalnej.'),('Zaprojektowany dla OEM', 'Spełnia normy LZO; rzeczywiste usuwanie defektu, a nie maskowanie wypełniaczem.')],
  POLISH_FAQ,
  'Pytania? Odpowiedzi.')
 
