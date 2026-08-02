@@ -382,7 +382,7 @@ PAGES_PL = [
       body=PAINTSHOP_BODY),
  dict(slug="/pl/rozwiazania/dla-lotnictwa/", en_slug="/solutions/aerospace-defense/",
       title="Zaopatrzenie dla lotnictwa i obronno\u015bci \u2014 chemia, materia\u0142y, logistyka | System.aero",
-      desc="Chemia wed\u0142ug specyfikacji od ponad 700 producent\u00f3w, materia\u0142y techniczne i zgodna logistyka ADR dla zak\u0142ad\u00f3w lotniczych, MRO i obronno\u015bci w Polsce.",
+      desc="Chemia wed\u0142ug specyfikacji od ponad 700 producent\u00f3w, materia\u0142y techniczne i logistyka ADR dla zak\u0142ad\u00f3w lotniczych, MRO i obronno\u015bci w Polsce.",
       body=AERODEF_BODY),
  dict(slug="/pl/polityka-prywatnosci/", en_slug="/privacy/",
       title="Polityka prywatno\u015bci | System.aero",
