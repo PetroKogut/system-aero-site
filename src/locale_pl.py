@@ -320,7 +320,7 @@ PAINTSHOP_BODY = prose_page("Dla lakierni", "Jeden zatwierdzony dostawca dla ca\
 AERODEF_BODY = prose_page("Dla lotnictwa i obronno\u015bci", "Jako\u015b\u0107 lotnicza. Od specyfikacji po dostaw\u0119.",
  "Kompleksowe zaopatrzenie chemiczne i materia\u0142y techniczne dla produkcji lotniczej, MRO i obronno\u015bci \u2014 jeden polski partner, dyscyplina rodem z lotnictwa.",
  f'''
-<p>Lotnictwo kupuje wed\u0142ug specyfikacji \u2014 my r\u00f3wnie\u017c. System.aero zaopatruje wojskowe zak\u0142ady lotnicze i przemys\u0142 lotniczy w Polsce w:</p>
+<p>Lotnictwo m\u00f3wi specyfikacjami. My te\u017c. System.aero zaopatruje wojskowe zak\u0142ady lotnicze i przemys\u0142 lotniczy w Polsce w:</p>
 <ul>
 <li><strong>Chemi\u0119 wed\u0142ug specyfikacji</strong> \u2014 <a href="/pl/produkty/chemia-lotnicza/">farby i pow\u0142oki, uszczelniacze, kleje i \u017cywice, \u015brodki czyszcz\u0105ce, smary i p\u0142yny specjalne</a>, pozyskiwane po numerze katalogowym lub QPL z sieci ponad 700 producent\u00f3w chemii lotniczej.</li>
 <li><strong>Logistyk\u0119 ADR i dokumentacj\u0119</strong> \u2014 identyfikowalno\u015b\u0107 partii, certyfikaty zgodno\u015bci, karty SDS zgodne z REACH, zarz\u0105dzanie terminami przydatno\u015bci, transport ADR i w kontrolowanej temperaturze.</li>

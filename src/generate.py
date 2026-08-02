@@ -358,7 +358,7 @@ PAINTSHOP_BODY = prose_page("For automotive paintshops", "One qualified supplier
 AERODEF_BODY = prose_page("For aerospace &amp; defense", "Aerospace-grade, from hangar to flight line.",
  "Complete chemical supply and technical consumables for aviation manufacturing, MRO and defense \u2014 one Polish partner, aerospace discipline.",
  f'''
-<p>Aviation buys against specification, and so do we. System.aero supplies military aviation facilities and the aerospace industry in Poland with:</p>
+<p>Aviation speaks in specifications. So do we. System.aero supplies military aviation facilities and the aerospace industry in Poland with:</p>
 <ul>
 <li><strong>Chemistry to spec</strong> \u2014 <a href="/products/aerospace-chemistry/">paints and coatings, sealants, adhesives and resins, cleaners, lubricants and specialty fluids</a>, sourced by part number or QPL from a network of 700+ aerospace chemical manufacturers.</li>
 <li><strong>Compliant logistics</strong> \u2014 batch traceability, certificates of conformity, REACH-compliant SDS, shelf-life management, temperature-controlled and hazmat shipping.</li>
