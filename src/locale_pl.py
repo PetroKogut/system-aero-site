@@ -245,17 +245,17 @@ COVERS_BODY = product_page(
  specs=('Formaty, materiały i pełne wyniki badań', '<p>System.aero produkuje pokrowce ochronne na roboty lakiernicze dla lakierni motoryzacyjnych OEM. Pokrowce powstają jako gotowe, szyte pod model robota, lub jako materiał z rolki cięty na wymiar, w szerokościach od 23 do 90 cm i więcej. Formaty: gotowe pokrowce (kartony po 10–20 szt.) lub rolki (~100 m).</p><p>Właściwości elektrostatyczne przebadane przez GIG (Główny Instytut Górnictwa) w akredytowanym przez PCA laboratorium (AB 005) wg PN-EN 60079-0 i PN-EN 60079-32-2. Wniosek sprawozdania BR-1/33/2026: dzianina ATEX ZeroSpray nie stwarza zagrożeń od elektryczności statycznej w obecności mediów palnych i może być bezpiecznie stosowana w strefach zagrożonych wybuchem. Dostępne smukłe kroje dla robotów aplikujących masy i lakierowania wnętrz.</p>'))
 
 TAPES_FAQ = [
- ("Jak\u0105 temperatur\u0119 wytrzymuje ta\u015bma?", "160 \u00b0C przez 30 minut \u2014 pe\u0142ny cykl piecowy w motoryzacji."),
+ ("Jak\u0105 temperatur\u0119 wytrzymuje ta\u015bma?", "160 \u00b0C przez 30 minut \u2014 pe\u0142ny cykl suszenia w motoryzacji."),
  ("Czy mog\u0119 dosta\u0107 pr\u00f3bki?", "Tak \u2014 rolki do pr\u00f3b na linii wysy\u0142amy bezp\u0142atnie na ca\u0142y \u015bwiat."),
 ]
 TAPES_BODY = product_page(
  'Taśmy maskujące',
  'Łatwa aplikacja. Czyste usuwanie. Wytrzymuje 160 °C.',
- 'Taśmy maskujące dla lakierni OEM — zwalidowane w próbach produkcyjnych pod kątem usuwania bez śladów kleju po cyklu piecowym.',
+ 'Taśmy maskujące dla lakierni OEM — sprawdzone w produkcji: po cyklu suszenia schodzą bez śladów kleju.',
  'Zamów rolki testowe',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo"><img src="/img/masking-tape.webp?v=10" alt="Taśma maskująca na świeżo polakierowanej czarnej karoserii na linii" width="1500" height="2000"><figcaption>Maskowanie krawędzi przy lakierowaniu bi-color — czysta linia, czyste usuwanie.</figcaption></figure>',
- [('Walidacja OEM', 'Pełna sekwencja: badania śladów silikonu, próby na linii, testy piecowe, ocena usuwania po wygrzaniu.'),('160 °C / 30 min', 'Wytrzymuje pełny cykl piecowy bez transferu kleju.'),('Gotowe na bi-color', 'Maskowanie krawędzi, linie uszczelnień, lakierowanie dwukolorowe.'),('Darmowe próbki na cały świat', 'Rolki do prób na linii — bezpłatnie, gdziekolwiek jest Twoja linia.')],
+ [('Walidacja OEM', 'Pełna sekwencja: badania śladów silikonu, próby na linii, testy w piecu, kontrola usuwania po wygrzaniu.'),('160 °C / 30 min', 'Wytrzymuje pełny cykl suszenia bez transferu kleju.'),('Gotowe na bi-color', 'Maskowanie krawędzi, linie uszczelnień, lakierowanie dwukolorowe.'),('Darmowe próbki na cały świat', 'Rolki do prób na linii — bezpłatnie, gdziekolwiek jest Twoja linia.')],
  TAPES_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -362,8 +362,8 @@ PAGES_PL = [
       body=COVERS_BODY, ld=[product_ld("Pokrowce na roboty lakiernicze ATEX ZeroSpray", "Dwuwarstwowy system pokrowc\u00f3w ochronnych na roboty lakiernicze: pokrowiec bazowy do dw\u00f3ch miesi\u0119cy plus szybko wymieniana warstwa wierzchnia. Przebadane przez GIG pod k\u0105tem stref zagro\u017conych wybuchem.", "/pl/produkty/pokrowce-na-roboty-lakiernicze/"), faq_ld(COVERS_FAQ)]),
  dict(slug="/pl/produkty/tasmy-maskujace/", en_slug="/products/masking-tapes/",
       title="Ta\u015bmy maskuj\u0105ce dla lakierni OEM \u2014 bez \u015blad\u00f3w kleju po piecu | System.aero",
-      desc="Ta\u015bmy maskuj\u0105ce zwalidowane w pr\u00f3bach produkcyjnych OEM: badania \u015blad\u00f3w silikonu, testy piecowe 160\u00b0C/30 min, usuwanie bez pozosta\u0142o\u015bci. Pr\u00f3bki gratis.",
-      body=TAPES_BODY, ld=[product_ld("Ta\u015bmy maskuj\u0105ce dla lakierni", "Ta\u015bmy maskuj\u0105ce zwalidowane przez OEM, usuwane bez \u015blad\u00f3w kleju po cyklu piecowym.", "/pl/produkty/tasmy-maskujace/"), faq_ld(TAPES_FAQ)]),
+      desc="Ta\u015bmy maskuj\u0105ce zwalidowane w pr\u00f3bach produkcyjnych OEM: badania \u015blad\u00f3w silikonu, testy w piecu 160\u00b0C/30 min, usuwanie bez pozosta\u0142o\u015bci. Pr\u00f3bki gratis.",
+      body=TAPES_BODY, ld=[product_ld("Ta\u015bmy maskuj\u0105ce dla lakierni", "Ta\u015bmy maskuj\u0105ce zwalidowane przez OEM, usuwane bez \u015blad\u00f3w kleju po cyklu suszenia.", "/pl/produkty/tasmy-maskujace/"), faq_ld(TAPES_FAQ)]),
  dict(slug="/pl/produkty/czysciwa-przemyslowe/", en_slug="/products/industrial-wipes/",
       title="\u015aciereczki py\u0142och\u0142onne i czy\u015bciwa nas\u0105czone dla lakierni | System.aero",
       desc="Bezsilikonowe \u015bciereczki py\u0142och\u0142onne i czy\u015bciwa nas\u0105czone do przygotowania powierzchni przed lakierowaniem. Darmowe pr\u00f3bki.",
