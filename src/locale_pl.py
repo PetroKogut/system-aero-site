@@ -279,7 +279,7 @@ POLISH_FAQ = [
 POLISH_BODY = product_page(
  'System jednoetapowy',
  'Od defektu do połysku w sekundy.',
- 'Kompletny system napraw punktowych dla linii wykończenia OEM: pasta polerska, gąbki i krążki ścierne.',
+ 'Kompletny system napraw punktowych lakieru: pasta polerska, gąbki i krążki ścierne.',
  'Umów próbę na linii',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/defect-correction.webp?v=10" alt="Punktowa szlifierka na czarnym polakierowanym panelu" width="1600" height="900"><figcaption>Naprawa punktowa na finish decku — od defektu do połysku w sekundy.</figcaption></figure>',
@@ -371,7 +371,7 @@ PAGES_PL = [
  dict(slug="/pl/produkty/korekta-defektow-lakieru/", en_slug="/products/paint-defect-correction/",
       title="Jednoetapowa korekta defekt\u00f3w lakieru dla linii OEM | System.aero",
       desc="Pasta polerska AIO (bez silikonu, bez wype\u0142niaczy, zgodna z LZO), dobrane g\u0105bki polerskie i kr\u0105\u017cki o strukturze piramidalnej. Wsparcie pr\u00f3b na linii.",
-      body=POLISH_BODY, ld=[product_ld("Jednoetapowy system korekty defekt\u00f3w lakieru", "Kompletny system napraw punktowych AIO dla linii wyko\u0144czenia OEM: pasta bez silikonu, g\u0105bki polerskie, kr\u0105\u017cki wyka\u0144czaj\u0105ce.", "/pl/produkty/korekta-defektow-lakieru/"), faq_ld(POLISH_FAQ)]),
+      body=POLISH_BODY, ld=[product_ld("Jednoetapowy system korekty defekt\u00f3w lakieru", "Kompletny system napraw punktowych lakieru: pasta bez silikonu, g\u0105bki polerskie, kr\u0105\u017cki \u015bcierne.", "/pl/produkty/korekta-defektow-lakieru/"), faq_ld(POLISH_FAQ)]),
  dict(slug="/pl/produkty/przekladki-transportowe/", en_slug="/products/dunnage-parts-separators/",
       title="Przek\u0142adki transportowe i separatory detali na wymiar | System.aero",
       desc="Przek\u0142adki z pianki PE z nierysuj\u0105c\u0105 powierzchni\u0105, projektowane pod detal i stojak. Opracowanie w 14 dni, 96,9% wykorzystania arkusza.",
