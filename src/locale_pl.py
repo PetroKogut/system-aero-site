@@ -56,7 +56,7 @@ def render(p):
 <a href="/pl/#products">Produkty</a>
 <a href="/pl/#solutions" class="hide-m">Rozwi\u0105zania</a>
 <a href="/pl/#about" class="hide-m">O nas</a>
-<a href="/pl/#contact" class="cta-link">Kontakt</a>
+<a href="/pl/kontakt/" class="cta-link">Kontakt</a>
 </nav>
 <a class="lang" href="{en_slug}"><b>PL</b> · EN</a>
 </div></header>
@@ -349,6 +349,38 @@ PRIVACY_BODY = prose_page("Polityka prywatno\u015bci", "Polityka prywatno\u015bc
 
 
 
+CONTACT_LD_PL = {"@context": "https://schema.org", "@type": "ContactPage",
+    "name": "Kontakt — System.aero", "url": f"{BASE}/pl/kontakt/",
+    "mainEntity": {"@type": "Organization", "name": "System.aero", "url": BASE,
+        "contactPoint": {"@type": "ContactPoint", "email": "inbox@system.aero",
+            "telephone": "+48 570 909 091", "contactType": "sales",
+            "availableLanguage": ["en", "pl", "uk"]}}}
+
+CONTACT_BODY = f'''<div class="wrap"><div class="p-hero">
+<p class="eyebrow">Kontakt</p>
+<h1>Porozmawiajmy.</h1>
+<p class="lead">Próbki, specyfikacje, projekty na wymiar — jeden adres, odpowiedź w ciągu 24 godzin, po polsku, angielsku lub ukraińsku.</p>
+</div>
+</div>
+
+<section><div class="wrap"><div class="tiles">
+<div class="tile"><h3>E-mail</h3><p><a href="mailto:{MAIL}">{MAIL}</a> — próbki, wyceny, specyfikacje.</p></div>
+<div class="tile"><h3>Telefon</h3><p><a href="tel:+48570909091">{PHONE}</a> — pon.–pt., 8:00–17:00.</p></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap"><details class="specs" open><summary>Dane firmy (do rejestracji dostawcy)</summary><div class="inner">
+<p>Petro Kogut</p>
+<p>System.Aero</p>
+<p>Zabłocie 19/9, 30-701 Kraków</p>
+<p>NIP UE: PL6772431335</p>
+<p><a href="mailto:{MAIL}">{MAIL}</a> · <a href="tel:+48570909091">{PHONE}</a></p>
+</div></details></div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="btns" style="justify-content:center">
+<a class="btn btn-red" href="mailto:{MAIL}?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero">Zamów próbki</a>
+<a class="btn btn-ghost" href="mailto:{MAIL}?subject=Zapytanie%20o%20specyfikacj%C4%99%20%E2%80%94%20system.aero">Prześlij specyfikację</a>
+</div></div></section>'''
+
 PAGES_PL = [
  dict(slug="/pl/", en_slug="/", title="Zaopatrzenie lakierni \u2014 motoryzacja, lotnictwo, przemys\u0142 | System.aero",
       desc="Pokrowce na roboty, ta\u015bmy maskuj\u0105ce, czy\u015bciwa, korekta defekt\u00f3w lakieru, przek\u0142adki i chemia lotnicza. Dostawy w ca\u0142ej Europie z Krakowa.",
@@ -385,6 +417,10 @@ PAGES_PL = [
       title="Zaopatrzenie dla lotnictwa i obronno\u015bci \u2014 chemia, materia\u0142y, logistyka | System.aero",
       desc="Chemia wed\u0142ug specyfikacji od ponad 700 producent\u00f3w, materia\u0142y techniczne i logistyka ADR dla zak\u0142ad\u00f3w lotniczych, MRO i obronno\u015bci w Polsce.",
       body=AERODEF_BODY),
+ dict(slug="/pl/kontakt/", en_slug="/contact/",
+      title="Kontakt — System.aero: próbki, specyfikacje, wyceny",
+      desc="Porozmawiaj z zespołem od zaopatrzenia lakierni: próbki, specyfikacje, wyceny. Kraków — odpowiadamy w ciągu 24 godzin po polsku, angielsku i ukraińsku.",
+      body=CONTACT_BODY, ld=[CONTACT_LD_PL]),
  dict(slug="/pl/polityka-prywatnosci/", en_slug="/privacy/",
       title="Polityka prywatno\u015bci | System.aero",
       desc="Bez cookies, bez tracker\u00f3w. Jak System.aero przetwarza dane osobowe z korespondencji biznesowej zgodnie z RODO.",

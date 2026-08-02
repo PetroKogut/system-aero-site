@@ -85,7 +85,7 @@ def render(p):
 <a href="/#products">Products</a>
 <a href="/#solutions" class="hide-m">Solutions</a>
 <a href="/#about" class="hide-m">About</a>
-<a href="/#contact" class="cta-link">Contact</a>
+<a href="/contact/" class="cta-link">Contact</a>
 </nav>
 <a class="lang" href="{pl_slug}">PL · <b>EN</b></a>
 </div></header>
@@ -388,6 +388,38 @@ PRIVACY_BODY = prose_page("Privacy notice", "Privacy notice.",
 
 
 
+CONTACT_LD = {"@context": "https://schema.org", "@type": "ContactPage",
+    "name": "Contact System.aero", "url": f"{BASE}/contact/",
+    "mainEntity": {"@type": "Organization", "name": "System.aero", "url": BASE,
+        "contactPoint": {"@type": "ContactPoint", "email": "inbox@system.aero",
+            "telephone": "+48 570 909 091", "contactType": "sales",
+            "availableLanguage": ["en", "pl", "uk"]}}}
+
+CONTACT_BODY = f'''<div class="wrap"><div class="p-hero">
+<p class="eyebrow">Contact</p>
+<h1>Talk to us.</h1>
+<p class="lead">Samples, specifications, custom projects — one address, replies within 24 hours, in English, Polish or Ukrainian.</p>
+</div>
+</div>
+
+<section><div class="wrap"><div class="tiles">
+<div class="tile"><h3>E-mail</h3><p><a href="mailto:{MAIL}">{MAIL}</a> — for samples, quotes and specifications.</p></div>
+<div class="tile"><h3>Phone</h3><p><a href="tel:+48570909091">{PHONE}</a> — Mon–Fri, 8:00–17:00 CET.</p></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap"><details class="specs" open><summary>Company data (for vendor registration)</summary><div class="inner">
+<p>Petro Kogut</p>
+<p>System.Aero</p>
+<p>Zabłocie 19/9, 30-701 Kraków, Poland</p>
+<p>VAT EU: PL6772431335</p>
+<p><a href="mailto:{MAIL}">{MAIL}</a> · <a href="tel:+48570909091">{PHONE}</a></p>
+</div></details></div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="btns" style="justify-content:center">
+<a class="btn btn-red" href="mailto:{MAIL}?subject=Sample%20request%20%E2%80%94%20system.aero">Request samples</a>
+<a class="btn btn-ghost" href="mailto:{MAIL}?subject=Specification%20inquiry%20%E2%80%94%20system.aero">Send a specification</a>
+</div></div></section>'''
+
 PAGES = [
  dict(slug="/", pl_slug="/pl/", title="Paintshop supplies for automotive, aerospace & manufacturing | System.aero",
       desc="Robot covers, masking tapes, wipes, paint defect correction, dunnage and aerospace chemistry. Delivered across Europe from Krak\u00f3w, Poland.",
@@ -420,6 +452,10 @@ PAGES = [
       title="One supplier for your entire paintshop | System.aero",
       desc="Robot covers, masking tapes, wipes, defect correction and QC support under one vendor number. Delivering to OEM and tier-1 paintshops across Europe.",
       body=PAINTSHOP_BODY),
+ dict(slug="/contact/", pl_slug="/pl/kontakt/",
+      title="Contact System.aero — samples, specifications, quotes",
+      desc="Talk to the team behind your paintshop supplies: samples, specifications, quotes. Kraków, Poland — replies within 24 hours in EN, PL and UA.",
+      body=CONTACT_BODY, ld=[CONTACT_LD]),
  dict(slug="/privacy/", pl_slug="/pl/polityka-prywatnosci/",
       title="Privacy notice | System.aero",
       desc="No cookies, no trackers. How System.aero processes personal data from business correspondence under GDPR.",
