@@ -14,7 +14,7 @@ def prose_page(crumb, h1, lead, inner, photo_html=""):
 
 def cta_band():
     return f'''<div class="wrap"><div class="cta-band">
-<div><h2>Zr\u00f3b nast\u0119pny krok.</h2>
+<div><h2>Zr\u00f3b kolejny krok.</h2>
 <p><strong style="color:#fff">Zam\u00f3w bezp\u0142atne pr\u00f3bki</strong> \u2014 przetestuj nasze materia\u0142y we w\u0142asnym procesie; wysy\u0142amy na ca\u0142y \u015bwiat. Albo prze\u015blij zdj\u0119cia i rysunki, \u017ceby <strong style="color:#fff">om\u00f3wi\u0107 projekt na wymiar</strong>.</p>
 <p class="contact-line"><a href="mailto:{MAIL}">{MAIL}</a> &nbsp;·&nbsp; <a href="tel:+48570909091">{PHONE}</a></p></div>
 <a class="btn btn-red" href="mailto:{MAIL}?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero">Zam\u00f3w pr\u00f3bki</a>
@@ -115,7 +115,7 @@ HOME_FAQ = [
  ("Jakie bran\u017ce obs\u0142ugujecie?", "Lakiernie OEM i tier-1 w motoryzacji, lotnicze MRO i wojskowe zak\u0142ady lotnicze oraz przemys\u0142owe lakiernie og\u00f3lne."),
  ("Czy dostarczacie do fabryk OEM?", "Tak. System.aero jest zarejestrowanym dostawc\u0105 czo\u0142owych producent\u00f3w samochod\u00f3w i dostarcza do lakierni w Polsce i Europie."),
  ("Czy mog\u0119 przetestowa\u0107 produkty przed zam\u00f3wieniem?", "Tak \u2014 wysy\u0142amy bezp\u0142atne pr\u00f3bki materia\u0142\u00f3w (czy\u015bciwa, \u015bciereczki py\u0142och\u0142onne, ta\u015bmy, pokrowce, kr\u0105\u017cki \u015bcierne) i wspieramy testy na linii."),
- ("Czy dostarczacie poza Polsk\u0119?", "Tak. Dostarczamy do zak\u0142ad\u00f3w w ca\u0142ej Europie i wyceniamy dostawy na ca\u0142y \u015bwiat."),
+ ("Czy dostarczacie poza Polsk\u0119?", "Tak. Dostarczamy do zak\u0142ad\u00f3w w ca\u0142ej Europie, a dostawy na ca\u0142y \u015bwiat wyceniamy indywidualnie."),
 ]
 
 HOME_BODY = f'''
@@ -175,21 +175,21 @@ HOME_BODY = f'''
 
 <section class="solutions" id="solutions"><div class="wrap">
 <p class="eyebrow">Rozwi\u0105zania</p>
-<h2 class="sec">Zbudowane wok\u00f3\u0142 tego, jak kupuje Tw\u00f3j zak\u0142ad.</h2>
+<h2 class="sec">Dopasowane do tego, jak kupuje Tw\u00f3j zak\u0142ad.</h2>
 <div class="sol-grid">
 <div class="sol"><h3>Dla lakierni</h3>
 <p>Pokrowce, ta\u015bmy, czy\u015bciwa, polerowanie i wsparcie QC \u2014 jeden numer dostawcy, jedna dostawa, jeden kontakt.</p>
 <a href="/pl/rozwiazania/dla-lakierni/">Jeden dostawca dla ca\u0142ej lakierni \u2192</a></div>
 <div class="sol"><h3>Dla lotnictwa i obronno\u015bci</h3>
 <p>Chemia wed\u0142ug specyfikacji, materia\u0142y techniczne i zgodna logistyka dla zak\u0142ad\u00f3w lotniczych i MRO.</p>
-<a href="/pl/rozwiazania/dla-lotnictwa/">Klasa aerospace \u2014 od hangaru po lini\u0119 \u2192</a></div>
+<a href="/pl/rozwiazania/dla-lotnictwa/">Jako\u015b\u0107 lotnicza. Od specyfikacji po dostaw\u0119 \u2192</a></div>
 </div>
 </div></section>
 
 <section id="about" class="about" style="padding-top:0"><div class="wrap">
 <p class="eyebrow">O nas</p>
 <h2 class="sec">Specjalista, nie marketplace.</h2>
-<p>System.aero dzia\u0142a z Krakowa od 2018 roku. Ka\u017cdy produkt w naszej ofercie istnieje dlatego, \u017ce in\u017cynier w zak\u0142adzie potrzebowa\u0142 rozwi\u0105zania, kt\u00f3re dzia\u0142a. Pracujemy po polsku, angielsku i ukrai\u0144sku.</p>
+<p>System.aero dzia\u0142a z Krakowa od 2018 roku. Ka\u017cdy produkt w naszej ofercie istnieje dlatego, \u017ce in\u017cynier w zak\u0142adzie potrzebowa\u0142 rozwi\u0105zania, kt\u00f3re dzia\u0142a. Obs\u0142ugujemy klient\u00f3w po polsku, angielsku i ukrai\u0144sku.</p>
 </div></section>
 
 <section style="padding-top:0"><div class="wrap">
@@ -209,16 +209,16 @@ HOME_BODY = f'''
 AERO_FAQ = [
  ("Czy mo\u017cecie pozyska\u0107 konkretny numer katalogowy lub specyfikacj\u0119?", "Tak \u2014 prze\u015blij specyfikacj\u0119, norm\u0119 lub numer katalogowy, a wycenimy dok\u0142adnie wed\u0142ug niej. Je\u015bli dopuszczasz alternatywy, zaproponujemy r\u00f3wnie\u017c zamienniki zgodne ze specyfikacj\u0105, wyra\u017anie oznaczone jako takie."),
  ("Czy zaopatrujecie obiekty wojskowe?", "Tak \u2014 dostarczamy do wojskowych zak\u0142ad\u00f3w lotniczych w Polsce i uczestniczymy w zam\u00f3wieniach publicznych sektora obronnego."),
- ("Czy obs\u0142ugujecie transport ADR i w kontrolowanej temperaturze?", "Tak \u2014 kompleksowo, ze zgodn\u0105 dokumentacj\u0105."),
+ ("Czy obs\u0142ugujecie transport ADR i w kontrolowanej temperaturze?", "Tak \u2014 kompleksowo, z pe\u0142n\u0105 dokumentacj\u0105."),
 ]
 AERO_BODY = product_page(
  'Chemia lotnicza',
  'Podaj specyfikację. Dostarczymy na czas.',
- 'Kompleksowe zaopatrzenie chemiczne dla produkcji lotniczej, MRO i obronności — według specyfikacji lub QPL, ze zgodną logistyką.',
+ 'Kompleksowe zaopatrzenie chemiczne dla produkcji lotniczej, MRO i obronności — według specyfikacji lub QPL, z logistyką ADR.',
  'Prześlij specyfikację',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20specyfikacj%C4%99%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/aerospace-chemistry-cans.webp?v=9" alt="Kanistry i puszki chemii lotniczej zapakowane do wysyłki" width="1600" height="900"><figcaption>Spakowane do wysyłki — chemia z logistyką zgodną z ADR.</figcaption></figure>',
- [('Według specyfikacji lub zamiennik', 'Po specyfikacji, P/N lub QPL od 700+ producentów; kwalifikowane zamienniki wyraźnie oznaczone.'),('Zarządzanie chemią', 'Identyfikowalność partii, certyfikaty zgodności, karty REACH, terminy przydatności.'),('Zgodna logistyka', 'Kontrolowana temperatura, pakowanie i dokumentacja ADR — kompleksowo.'),('Kosmos w planie', 'Chemia o niskim odgazowaniu wg ECSS i NASA — w mapie drogowej.')],
+ [('Według specyfikacji lub zamiennik', 'Po specyfikacji, P/N lub QPL od 700+ producentów; kwalifikowane zamienniki wyraźnie oznaczone.'),('Zarządzanie chemią', 'Identyfikowalność partii, certyfikaty zgodności, karty REACH, terminy przydatności.'),('Logistyka ADR', 'Kontrolowana temperatura, pakowanie i dokumentacja ADR — kompleksowo.'),('W planach: kosmos', 'Chemia o niskim odgazowaniu wg ECSS i NASA — w naszych planach.')],
  AERO_FAQ,
  'Pytania? Odpowiedzi.',
  specs=('Pełna lista kategorii', '<p>System.aero dostarcza chemię lotniczą do wojskowych zakładów lotniczych i producentów lotniczych w Polsce i Europie Środkowej.</p><ul><li><strong>Farby i powłoki</strong> — podkłady, nawierzchnie, aktywatory, rozcieńczalniki, utwardzacze.</li><li><strong>Uszczelniacze</strong> — do zbiorników paliwa, przeciwogniowe, wysokotemperaturowe, antykorozyjne, do szyb.</li><li><strong>Kleje, żywice i szpachlówki</strong> — epoksydy konstrukcyjne, żywice naprawcze, masy zalewowe.</li><li><strong>Środki czyszczące i obróbka powierzchni</strong> — mycie, odtłuszczanie, powłoki konwersyjne, plastikowe ścierniwa.</li><li><strong>Oleje, smary i płyny specjalne</strong> — środki smarne dla lotnictwa, płyny procesowe.</li><li><strong>Taśmy lotnicze</strong> — maskujące, uszczelniające, ochronne, przeciwcierne.</li><li><strong>Akcesoria aplikacyjne</strong> — pistolety, mieszalniki, dysze, aplikatory.</li></ul>'))
@@ -226,7 +226,7 @@ AERO_BODY = product_page(
 COVERS_FAQ = [
  ("Jakie modele robot\u00f3w obs\u0142ugujecie?", "Dowolne \u2014 prze\u015blij model lub zdj\u0119cie; wykr\u00f3j przygotujemy z wymiar\u00f3w, rysunk\u00f3w lub przymiarki na miejscu."),
  ("Jednorazowe czy wielorazowe?", "Obs\u0142ugujemy oba modele u\u017cytkowania; typowy cykl w motoryzacji to cotygodniowa wymiana na robota \u2014 albo do dw\u00f3ch miesi\u0119cy na warstwie bazowej ATEX ZeroSpray."),
- ("Minimalne zam\u00f3wienie?", "Brak. Wolimy, \u017ceby\u015b przetestowa\u0142 jeden karton i mia\u0142 pewno\u015b\u0107. Odezwij si\u0119, a zajmiemy si\u0119 Twoim przypadkiem."),
+ ("Minimalne zam\u00f3wienie?", "Brak. Wolimy, \u017ceby\u015b przetestowa\u0142 jeden karton i mia\u0142 pewno\u015b\u0107. Odezwij si\u0119 \u2014 zajmiemy si\u0119 reszt\u0105."),
 ]
 COVERS_BODY = product_page(
  'ATEX ZeroSpray',
@@ -235,7 +235,7 @@ COVERS_BODY = product_page(
  'Zamów bezpłatny pokrowiec testowy',
  'mailto:inbox@system.aero?subject=Bezp%C5%82atny%20pokrowiec%20testowy%20%E2%80%94%20ATEX%20ZeroSpray',
  '<figure class="solo"><img src="/img/covers-booth.webp?v=9" alt="Pokrowiec ochronny ATEX ZeroSpray założony na robota lakierniczego w kabinie" width="1124" height="2000"><figcaption>ATEX ZeroSpray na robocie lakierniczym — pokrowiec bazowy w pracy.</figcaption></figure>',
- [('Konstrukcja niskopyląca', 'Pylenie włókien z pokrowców to źródło defektów; materiał i wykończenie zbudowane wokół kontroli pylenia.'),('Przebadane przez GIG (strefy ATEX)', 'Sprawozdanie laboratorium państwowego BR-1/33/2026 — a nie własna deklaracja. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Pełne sprawozdanie (PDF)</a>'),('Bez silikonu', 'Zero ryzyka zanieczyszczenia procesu związkami PDMS — zero kraterów silikonowych.'),('Ekonomia dwóch warstw', 'Tanią warstwę wierzchnią wymieniasz często, zaprojektowaną bazową — rzadko.')],
+ [('Konstrukcja niskopyląca', 'Pylenie włókien z pokrowców to źródło defektów; materiał i wykończenie zbudowane wokół kontroli pylenia.'),('Przebadane przez GIG (strefy ATEX)', 'Sprawozdanie laboratorium państwowego BR-1/33/2026 — a nie własna deklaracja. <a href="/docs/gig-test-report-br-1-33-2026.pdf">Pełne sprawozdanie (PDF)</a>'),('Bez silikonu', 'Zero ryzyka zanieczyszczenia procesu związkami PDMS — zero kraterów silikonowych.'),('Ekonomika dwóch warstw', 'Tanią warstwę wierzchnią wymieniasz często, zaprojektowaną bazową — rzadko.')],
  COVERS_FAQ,
  'Pytania? Odpowiedzi.',
  cta2='Zapytaj o ofertę',
@@ -265,11 +265,11 @@ WIPES_FAQ = [
 WIPES_BODY = product_page(
  'Czyściwa',
  'Zero pyłków. Zero silikonu. Czysty start każdej warstwy.',
- 'Ściereczki pyłochłonne i czyściwa nasączone do przygotowania powierzchni przed lakierowaniem — najtańsze ubezpieczenie od poprawki.',
+ 'Ściereczki pyłochłonne i czyściwa nasączone do przygotowania powierzchni przed lakierowaniem — najtańsze ubezpieczenie od poprawek.',
  'Zamów zestaw próbek',
  'mailto:inbox@system.aero?subject=Zapytanie%20o%20pr%C3%B3bki%20%E2%80%94%20system.aero',
  '<figure class="solo wide"><img src="/img/tack-cloth.webp?v=9" alt="Dłoń w rękawicy przecierająca zderzak ściereczką pyłochłonną" width="1600" height="900"><figcaption>Odpylanie przed lakierowaniem — ostatnia linia obrony przed wtrąceniami.</figcaption></figure>',
- [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują i wiążą pył, włókna i pozostałości po szlifowaniu przed lakierowaniem; bez silikonu, bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesączenia.')],
+ [('Ściereczki pyłochłonne (tack rags)', 'Wychwytują i wiążą pył, włókna i pozostałości po szlifowaniu przed lakierowaniem; bez silikonu, bezpieczne dla systemów wodnych i rozpuszczalnikowych.'),('Czyściwa nasączone', 'Stała dawka rozpuszczalnika, niższa ekspozycja na LZO, bez przesycenia.')],
  WIPES_FAQ,
  'Pytania? Odpowiedzi.')
 
@@ -301,31 +301,31 @@ DUNNAGE_BODY = product_page(
  DUNNAGE_FAQ,
  'Pytania? Odpowiedzi.')
 
-PAINTSHOP_BODY = prose_page("Dla lakierni", "Jeden zakwalifikowany dostawca dla ca\u0142ej lakierni.",
- "Pokrowce, maskowanie, przecieranie, korekta defekt\u00f3w i wsparcie QC \u2014 jeden numer dostawcy, jedna dostawa, jedna osoba, kt\u00f3ra odbiera telefon.",
+PAINTSHOP_BODY = prose_page("Dla lakierni", "Jeden zatwierdzony dostawca dla ca\u0142ej lakierni.",
+ "Pokrowce, maskowanie, czy\u015bciwa, korekta defekt\u00f3w i wsparcie QC \u2014 jeden numer dostawcy, jedna dostawa, jedna osoba, kt\u00f3ra odbiera telefon.",
  f'''
-<p>Ka\u017cdy nowy dostawca kosztuje Tw\u00f3j zak\u0142ad rejestracj\u0119, audyt i numer dostawcy w SAP. System.aero konsoliduje pi\u0119\u0107 kategorii materia\u0142\u00f3w lakierniczych u jednego zakwalifikowanego dostawcy: pokrowce na roboty, ta\u015bmy maskuj\u0105ce, \u015bciereczki py\u0142och\u0142onne i czy\u015bciwa, jednoetapow\u0105 korekt\u0119 defekt\u00f3w oraz wsparcie kontroli grubo\u015bci pow\u0142oki.</p>
-<h2>Spacer wzd\u0142u\u017c linii</h2>
+<p>Ka\u017cdy nowy dostawca kosztuje Tw\u00f3j zak\u0142ad rejestracj\u0119, audyt i numer dostawcy w SAP. System.aero konsoliduje pi\u0119\u0107 kategorii materia\u0142\u00f3w lakierniczych u jednego zatwierdzonego dostawcy: pokrowce na roboty, ta\u015bmy maskuj\u0105ce, \u015bciereczki py\u0142och\u0142onne i czy\u015bciwa, jednoetapow\u0105 korekt\u0119 defekt\u00f3w oraz wsparcie kontroli grubo\u015bci pow\u0142oki.</p>
+<h2>Wzd\u0142u\u017c linii \u2014 krok po kroku</h2>
 <ul>
-<li><strong>Kabina</strong> \u2014 <a href="/pl/produkty/pokrowce-na-roboty-lakiernicze/">okryte roboty</a>, zero zanieczyszcze\u0144 w\u0142\u00f3knami</li>
+<li><strong>Kabina</strong> \u2014 <a href="/pl/produkty/pokrowce-na-roboty-lakiernicze/">roboty w pokrowcach</a>, zero zanieczyszcze\u0144 w\u0142\u00f3knami</li>
 <li><strong>Maskowanie</strong> \u2014 <a href="/pl/produkty/tasmy-maskujace/">czyste linie przez piec</a></li>
 <li><strong>Przygotowanie</strong> \u2014 <a href="/pl/produkty/czysciwa-przemyslowe/">odpylanie przed ka\u017cd\u0105 warstw\u0105</a></li>
 <li><strong>Wyko\u0144czenie</strong> \u2014 <a href="/pl/produkty/korekta-defektow-lakieru/">naprawa punktowa w sekundy</a></li>
 <li><strong>QC</strong> \u2014 kontrola grubo\u015bci pow\u0142oki</li>
 </ul>
-<p>Dostarczamy ju\u017c do lakierni OEM i tier-1 w Polsce i Europie \u2014 7 zak\u0142ad\u00f3w i liczba ta ro\u015bnie.</p>
+<p>Dostarczamy ju\u017c do lakierni OEM i tier-1 w Polsce i Europie \u2014 7 zak\u0142ad\u00f3w i wci\u0105\u017c ich przybywa.</p>
 ''')
 
-AERODEF_BODY = prose_page("Dla lotnictwa i obronno\u015bci", "Klasa aerospace \u2014 od hangaru po lini\u0119.",
- "Kompleksowe zaopatrzenie chemiczne i materia\u0142y techniczne dla produkcji lotniczej, MRO i obronno\u015bci \u2014 jeden polski partner, lotnicza dyscyplina.",
+AERODEF_BODY = prose_page("Dla lotnictwa i obronno\u015bci", "Jako\u015b\u0107 lotnicza. Od specyfikacji po dostaw\u0119.",
+ "Kompleksowe zaopatrzenie chemiczne i materia\u0142y techniczne dla produkcji lotniczej, MRO i obronno\u015bci \u2014 jeden polski partner, dyscyplina rodem z lotnictwa.",
  f'''
 <p>Lotnictwo kupuje wed\u0142ug specyfikacji \u2014 my r\u00f3wnie\u017c. System.aero zaopatruje wojskowe zak\u0142ady lotnicze i przemys\u0142 lotniczy w Polsce w:</p>
 <ul>
 <li><strong>Chemi\u0119 wed\u0142ug specyfikacji</strong> \u2014 <a href="/pl/produkty/chemia-lotnicza/">farby i pow\u0142oki, uszczelniacze, kleje i \u017cywice, \u015brodki czyszcz\u0105ce, smary i p\u0142yny specjalne</a>, pozyskiwane po numerze katalogowym lub QPL z sieci ponad 700 producent\u00f3w chemii lotniczej.</li>
-<li><strong>Zgodn\u0105 logistyk\u0119</strong> \u2014 identyfikowalno\u015b\u0107 partii, certyfikaty zgodno\u015bci, karty SDS zgodne z REACH, zarz\u0105dzanie terminami przydatno\u015bci, transport ADR i w kontrolowanej temperaturze.</li>
+<li><strong>Logistyk\u0119 ADR i dokumentacj\u0119</strong> \u2014 identyfikowalno\u015b\u0107 partii, certyfikaty zgodno\u015bci, karty SDS zgodne z REACH, zarz\u0105dzanie terminami przydatno\u015bci, transport ADR i w kontrolowanej temperaturze.</li>
 <li><strong>Materia\u0142y techniczne</strong> \u2014 niskopyl\u0105ce czy\u015bciwa i \u015bciereczki py\u0142och\u0142onne do przygotowania kompozyt\u00f3w i lakierowania, lotnicze ta\u015bmy maskuj\u0105ce i ochronne, plastikowe \u015bcierniwa do usuwania pow\u0142ok, pokrowce ochronne na sprz\u0119t.</li>
 </ul>
-<p><strong>Obs\u0142ugiwane rynki:</strong> lotnictwo wojskowe i obronno\u015b\u0107 · MRO lotnicze · produkcja lotnicza · materia\u0142y dla sektora kosmicznego w mapie drogowej (chemia o niskim odgazowaniu wed\u0142ug wymaga\u0144 ECSS i NASA).</p>
+<p><strong>Obs\u0142ugiwane rynki:</strong> lotnictwo wojskowe i obronno\u015b\u0107 · MRO lotnicze · produkcja lotnicza · materia\u0142y dla sektora kosmicznego w naszych planach (chemia o niskim odgazowaniu wed\u0142ug wymaga\u0144 ECSS i NASA).</p>
 <p><strong>Koncesja MSWiA:</strong> System.aero posiada koncesj\u0119 MSWiA nr B-074/2025 (wydan\u0105 12.06.2025, wa\u017cn\u0105 50 lat) na obr\u00f3t wyrobami o przeznaczeniu wojskowym lub policyjnym (WT V). Uczestniczymy w przetargach sektora obronnego w Polsce i rozumiemy dyscyplin\u0119 dokumentacyjn\u0105, jakiej wymagaj\u0105. <a href="/docs/koncesja.pdf">Koncesja (PDF)</a></p>
 ''')
 
@@ -355,7 +355,7 @@ PAGES_PL = [
  dict(slug="/pl/produkty/chemia-lotnicza/", en_slug="/products/aerospace-chemistry/",
       title="Chemia lotnicza \u2014 wed\u0142ug specyfikacji, QPL i numeru katalogowego | System.aero",
       desc="Farby, uszczelniacze, kleje, \u015brodki czyszcz\u0105ce, smary i ta\u015bmy lotnicze od ponad 700 producent\u00f3w. Identyfikowalno\u015b\u0107 partii, karty REACH, logistyka ADR.",
-      body=AERO_BODY, ld=[product_ld("Chemia lotnicza \u2014 zaopatrzenie", "Chemia lotnicza pozyskiwana wed\u0142ug specyfikacji, numeru katalogowego lub QPL, ze zgodn\u0105 dokumentacj\u0105 i logistyk\u0105.", "/pl/produkty/chemia-lotnicza/"), faq_ld(AERO_FAQ)]),
+      body=AERO_BODY, ld=[product_ld("Chemia lotnicza \u2014 zaopatrzenie", "Chemia lotnicza pozyskiwana wed\u0142ug specyfikacji, numeru katalogowego lub QPL, z pe\u0142n\u0105 dokumentacj\u0105 i logistyk\u0105.", "/pl/produkty/chemia-lotnicza/"), faq_ld(AERO_FAQ)]),
  dict(slug="/pl/produkty/pokrowce-na-roboty-lakiernicze/", en_slug="/products/paint-robot-covers/",
       title="Pokrowce na roboty lakiernicze \u2014 ATEX ZeroSpray, do 2 miesi\u0119cy na pokrowcu bazowym | System.aero",
       desc="Dwuwarstwowe pokrowce ochronne na roboty lakiernicze Fanuc, D\u00fcrr, ABB, Yaskawa, KUKA i B+M. Przebadane przez GIG (strefy ATEX), bez silikonu, niskopyl\u0105ce. Produkcja w UE.",
